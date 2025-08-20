@@ -1,0 +1,364 @@
+{
+  "ASN": "55836",
+  "ASName": "Reliance Jio Infocomm Limited",
+  "subnet": "2409:4000::/22",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": [
+          "2405:200:800::/37"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "4755",
+          "ASName": "TATA Communications formerly VSNL is Leading ISP",
+          "CIDR": "2403:0:200:3c::/64",
+          "IP": "2403:0:200:3c::78",
+          "mlab_site": "maa01"
+        },
+        "s2": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "2404:a800:3200:23::/64",
+          "IP": "2404:a800:3200:23::78",
+          "mlab_site": "maa02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "2403::/32",
+            "hop_addr": "2403:0:200:3c::1",
+            "hop_id": "20250421_wehe-wp9x6_2403:0:200:3c::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2403:0:246::1a",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "2403::/32",
+            "hop_addr": "2403:0:246::1a",
+            "hop_id": "20250421_wehe-wp9x6_2403:0:246::1a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::aee",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::aee",
+            "hop_id": "20250421_wehe-wp9x6_2405:200:801:700::aee",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::aee",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::aee",
+            "hop_id": "20250421_wehe-wp9x6_2405:200:801:700::aee",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "2404:a800::/32",
+            "hop_addr": "2404:a800:3200:23::1",
+            "hop_id": "20250421_wehe-h789d_2404:a800:3200:23::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2404:a800::93",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "2404:a800::/48",
+            "hop_addr": "2404:a800::93",
+            "hop_id": "20250421_wehe-h789d_2404:a800::93",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:1607:600:49:44:220:bc",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:1000::/36",
+            "hop_addr": "2405:200:1607:600:49:44:220:bc",
+            "hop_id": "20250421_wehe-h789d_2405:200:1607:600:49:44:220:bc",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b4a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b4a",
+            "hop_id": "20250421_wehe-h789d_2405:200:801:700::b4a",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b4a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b4a",
+            "hop_id": "20250421_wehe-h789d_2405:200:801:700::b4a",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": [
+          "2405:200:800::/37"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "4755",
+          "ASName": "TATA Communications formerly VSNL is Leading ISP",
+          "CIDR": "2403:0:200:3c::/64",
+          "IP": "2403:0:200:3c::78",
+          "mlab_site": "maa01"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "2405:203:9c0:2::/64",
+          "IP": "2405:203:9c0:2::142",
+          "mlab_site": "maa03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "2403::/32",
+            "hop_addr": "2403:0:200:3c::1",
+            "hop_id": "20250421_wehe-wp9x6_2403:0:200:3c::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2403:0:246::1a",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "2403::/32",
+            "hop_addr": "2403:0:246::1a",
+            "hop_id": "20250421_wehe-wp9x6_2403:0:246::1a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::aee",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::aee",
+            "hop_id": "20250421_wehe-wp9x6_2405:200:801:700::aee",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::aee",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::aee",
+            "hop_id": "20250421_wehe-wp9x6_2405:200:801:700::aee",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:203:900::/40",
+            "hop_addr": "2405:203:9c0:2::1",
+            "hop_id": "20250421_wehe-z9cch_2405:203:9c0:2::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b48",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b48",
+            "hop_id": "20250421_wehe-z9cch_2405:200:801:700::b48",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b48",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b48",
+            "hop_id": "20250421_wehe-z9cch_2405:200:801:700::b48",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": [
+          "2405:200:800::/37"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "2404:a800:3200:23::/64",
+          "IP": "2404:a800:3200:23::78",
+          "mlab_site": "maa02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "2405:203:9c0:2::/64",
+          "IP": "2405:203:9c0:2::142",
+          "mlab_site": "maa03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "2404:a800::/32",
+            "hop_addr": "2404:a800:3200:23::1",
+            "hop_id": "20250421_wehe-h789d_2404:a800:3200:23::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2404:a800::93",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "2404:a800::/48",
+            "hop_addr": "2404:a800::93",
+            "hop_id": "20250421_wehe-h789d_2404:a800::93",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:1607:600:49:44:220:bc",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:1000::/36",
+            "hop_addr": "2405:200:1607:600:49:44:220:bc",
+            "hop_id": "20250421_wehe-h789d_2405:200:1607:600:49:44:220:bc",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b4a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b4a",
+            "hop_id": "20250421_wehe-h789d_2405:200:801:700::b4a",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b4a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b4a",
+            "hop_id": "20250421_wehe-h789d_2405:200:801:700::b4a",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:203:900::/40",
+            "hop_addr": "2405:203:9c0:2::1",
+            "hop_id": "20250421_wehe-z9cch_2405:203:9c0:2::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b48",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b48",
+            "hop_id": "20250421_wehe-z9cch_2405:200:801:700::b48",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2405:200:801:700::b48",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "2405:200:800::/37",
+            "hop_addr": "2405:200:801:700::b48",
+            "hop_id": "20250421_wehe-z9cch_2405:200:801:700::b48",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    }
+  ]
+}

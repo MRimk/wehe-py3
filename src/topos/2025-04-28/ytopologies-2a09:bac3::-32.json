@@ -1,0 +1,987 @@
+{
+  "ASN": "13335",
+  "ASName": "Cloudflare, Inc.",
+  "subnet": "2a09:bac3::/32",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac3:3790::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "203348",
+            "hop_ASName": "Hellenic Telecommunications and Post Commision",
+            "hop_CIDR": "2001:648:25e0::/48",
+            "hop_addr": "2001:648:25e0::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:25e0::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ffd:3348:3::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "2a09:bac3:3a2f::",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "203348",
+            "hop_ASName": "Hellenic Telecommunications and Post Commision",
+            "hop_CIDR": "2001:648:25e0::/48",
+            "hop_addr": "2001:648:25e0::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:25e0::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ffd:3348:3::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "2a09:bac3:3a2f::",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac3:3790::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac3:3790::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "2a09:bac3:3a3f::",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac3:3790::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "203348",
+            "hop_ASName": "Hellenic Telecommunications and Post Commision",
+            "hop_CIDR": "2001:648:25e0::/48",
+            "hop_addr": "2001:648:25e0::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:25e0::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ffd:3348:3::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "203348",
+            "hop_ASName": "Hellenic Telecommunications and Post Commision",
+            "hop_CIDR": "2001:648:25e0::/48",
+            "hop_addr": "2001:648:25e0::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:25e0::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ffd:3348:3::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1213",
+          "ASName": "HEAnet Limited",
+          "CIDR": "2001:770:b5::/64",
+          "IP": "2001:770:b5::232",
+          "mlab_site": "dub01"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:b5::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:b5::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1004::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1004::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1004::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:770:200:1304::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1213",
+            "hop_ASName": "HEAnet Limited",
+            "hop_CIDR": "2001:770::/32",
+            "hop_addr": "2001:770:200:1304::1",
+            "hop_id": "20250426_wehe-75tgt_2001:770:200:1304::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:18::76",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2128",
+            "hop_ASName": "Internet Neutral Exchange Association Company Limited By Guarantee",
+            "hop_CIDR": "2001:7f8:18::/48",
+            "hop_addr": "2001:7f8:18::76",
+            "hop_id": "20250426_wehe-75tgt_2001:7f8:18::76",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:52:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:52::/48",
+            "hop_addr": "2400:cb00:52:3::",
+            "hop_id": "20250426_wehe-75tgt_2400:cb00:52:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ff2:105::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ff2:105::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ff2:105::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8:ce::10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-23712",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8:ce::10",
+            "hop_addr": "2001:7f8:ce::10",
+            "hop_id": "20250425_wehe-fcwtt_2001:7f8:ce::10",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "2a09:bac3:3a3f::",
+            "offset": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

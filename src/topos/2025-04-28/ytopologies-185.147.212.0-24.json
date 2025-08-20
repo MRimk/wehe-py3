@@ -1,0 +1,2831 @@
+{
+  "ASN": "62651",
+  "ASName": "Strong Technology, LLC.",
+  "subnet": "185.147.212.0/24",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250423_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250423_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250423_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250425_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250425_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250425_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "185.147.212.0",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250423_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250423_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250423_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250425_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.27.81",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.27.81",
+            "hop_id": "20250425_wehe-bg5ft_195.2.27.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.20.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.20.174",
+            "hop_id": "20250425_wehe-bg5ft_195.2.20.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.10.53.2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.10.0.0/18",
+            "hop_addr": "195.10.53.2",
+            "hop_id": "20250425_wehe-bg5ft_195.10.53.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "185.156.45.116",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1875",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.116",
+            "hop_addr": "185.156.45.116",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.116",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.107",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1812",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.107",
+            "hop_addr": "185.156.45.107",
+            "hop_id": "20250425_wehe-bg5ft_185.156.45.107",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250425_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250425_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250425_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "185.147.212.0",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250425_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250425_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250425_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "185.147.212.0",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250423_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250423_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250423_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250423_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250423_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250423_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.27",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-ktftq_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-ktftq_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-ktftq_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-ktftq_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-ktftq_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.105",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1798",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.105",
+            "hop_addr": "185.156.45.105",
+            "hop_id": "20250425_wehe-ktftq_185.156.45.105",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250425_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250425_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250425_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "185.147.212.0",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250425_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250425_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250425_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "185.147.212.0",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250425_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250425_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250425_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "185.147.212.0",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "185.147.212.0",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250423_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250423_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250423_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.3.248.192/26",
+          "IP": "212.3.248.206",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250425_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.110.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.110.41",
+            "hop_id": "20250425_wehe-qtd67_141.136.110.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "87.119.97.190",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "87.119.64.0/18",
+            "hop_addr": "87.119.97.190",
+            "hop_id": "20250425_wehe-qtd67_87.119.97.190",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.255.14.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "201011",
+            "hop_ASName": "AS33891 Netzbetrieb GmbH",
+            "hop_CIDR": "80.255.0.0/20",
+            "hop_addr": "80.255.14.38",
+            "hop_id": "20250425_wehe-qtd67_80.255.14.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "169.150.195.78",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2309",
+            "hop_ASName": null,
+            "hop_CIDR": "169.150.195.78",
+            "hop_addr": "169.150.195.78",
+            "hop_id": "20250425_wehe-qtd67_169.150.195.78",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "185.156.45.109",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-1826",
+            "hop_ASName": null,
+            "hop_CIDR": "185.156.45.109",
+            "hop_addr": "185.156.45.109",
+            "hop_id": "20250425_wehe-qtd67_185.156.45.109",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.3.224.0/19",
+            "hop_addr": "212.3.248.193",
+            "hop_id": "20250423_wehe-465gp_212.3.248.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.10.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.10.21",
+            "hop_id": "20250423_wehe-465gp_171.75.10.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.19.217.186",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.19.128.0/17",
+            "hop_addr": "213.19.217.186",
+            "hop_id": "20250423_wehe-465gp_213.19.217.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    }
+  ]
+}

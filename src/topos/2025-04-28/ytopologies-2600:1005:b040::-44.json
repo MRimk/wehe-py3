@@ -1,0 +1,1135 @@
+{
+  "ASN": "6167",
+  "ASName": "Cellco Partnership DBA Verizon Wireless",
+  "subnet": "2600:1005:b040::/44",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::142",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::14",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-g6h85_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f1",
+            "hop_id": "20250422_wehe-g6h85_2600:803:1::1f1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-g6h85_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-g6h85_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1032:240:26:0:7",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1032:240:26:0:7",
+            "hop_id": "20250422_wehe-g6h85_2001:4888:26:1032:240:26:0:7",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-55wxn_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-55wxn_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-55wxn_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-55wxn_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::142",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::14",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-g6h85_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f1",
+            "hop_id": "20250422_wehe-g6h85_2600:803:1::1f1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-g6h85_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-g6h85_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-55wxn_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-55wxn_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-55wxn_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-55wxn_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::142",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::40",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-g6h85_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f1",
+            "hop_id": "20250422_wehe-g6h85_2600:803:1::1f1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-g6h85_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-g6h85_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-spb5f_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-spb5f_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-spb5f_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1033:240:26:0:6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1033:240:26:0:6",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1033:240:26:0:6",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::142",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::40",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-g6h85_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f1",
+            "hop_id": "20250422_wehe-g6h85_2600:803:1::1f1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-g6h85_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-g6h85_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1032:240:26:0:7",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1032:240:26:0:7",
+            "hop_id": "20250422_wehe-g6h85_2001:4888:26:1032:240:26:0:7",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-spb5f_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-spb5f_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-spb5f_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1033:240:26:0:6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1033:240:26:0:6",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1033:240:26:0:6",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::155",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::14",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-9tdqr_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f5",
+            "hop_id": "20250422_wehe-9tdqr_2600:803:1::1f5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-9tdqr_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-9tdqr_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1033:240:26:0:6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1033:240:26:0:6",
+            "hop_id": "20250422_wehe-9tdqr_2001:4888:26:1033:240:26:0:6",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-55wxn_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-55wxn_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-55wxn_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-55wxn_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::155",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::14",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-9tdqr_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f5",
+            "hop_id": "20250422_wehe-9tdqr_2600:803:1::1f5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-9tdqr_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-9tdqr_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-55wxn_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-55wxn_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-55wxn_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-55wxn_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::155",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::40",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-9tdqr_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f5",
+            "hop_id": "20250422_wehe-9tdqr_2600:803:1::1f5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-9tdqr_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-9tdqr_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1033:240:26:0:6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1033:240:26:0:6",
+            "hop_id": "20250422_wehe-9tdqr_2001:4888:26:1033:240:26:0:6",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-spb5f_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-spb5f_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-spb5f_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1033:240:26:0:6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1033:240:26:0:6",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1033:240:26:0:6",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "22394",
+          "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "701",
+          "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:200:7::/64",
+          "IP": "2001:550:200:7::155",
+          "mlab_site": "iad02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:21::/64",
+          "IP": "2001:668:1f:21::40",
+          "mlab_site": "iad04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:200:7::1",
+            "hop_id": "20250422_wehe-9tdqr_2001:550:200:7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:1::1f5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:1::1f5",
+            "hop_id": "20250422_wehe-9tdqr_2600:803:1::1f5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-9tdqr_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-9tdqr_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:21::1",
+            "hop_id": "20250422_wehe-spb5f_2001:668:1f:21::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:803:2::49",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:803:2::49",
+            "hop_id": "20250422_wehe-spb5f_2600:803:2::49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:804::6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "701",
+            "hop_ASName": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "hop_CIDR": "2600:800::/27",
+            "hop_addr": "2600:804::6f",
+            "hop_id": "20250422_wehe-spb5f_2600:804::6f",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1020:240:1:0:10",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1020:240:1:0:10",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1020:240:1:0:10",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4888:26:1033:240:26:0:6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "22394",
+            "hop_ASName": "Cellco Partnership DBA Verizon Wireless",
+            "hop_CIDR": "2001:4888::/32",
+            "hop_addr": "2001:4888:26:1033:240:26:0:6",
+            "hop_id": "20250422_wehe-spb5f_2001:4888:26:1033:240:26:0:6",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

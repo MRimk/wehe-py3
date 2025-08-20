@@ -1,0 +1,91 @@
+{
+  "ASN": "54113",
+  "ASName": "Fastly",
+  "subnet": "146.75.146.0/23",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.98.51.0/26",
+          "IP": "38.98.51.40",
+          "mlab_site": "lax06"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.15.166.0/26",
+          "IP": "4.15.166.27",
+          "mlab_site": "lax04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.98.51.1",
+            "hop_id": "20250504_wehe-jkkl5_38.98.51.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.27.117",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.27.117",
+            "hop_id": "20250504_wehe-jkkl5_154.54.27.117",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.0.166",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.0.166",
+            "hop_id": "20250504_wehe-jkkl5_154.54.0.166",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.15.166.1",
+            "hop_id": "20250504_wehe-66nwk_4.15.166.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "4.69.219.45",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.69.219.45",
+            "hop_id": "20250504_wehe-66nwk_4.69.219.45",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    }
+  ]
+}

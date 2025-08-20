@@ -1,0 +1,4039 @@
+{
+  "ASN": "36183",
+  "ASName": "Akamai Technologies, Inc.",
+  "subnet": "2a02:26f7:f7d0::/48",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-dwb7b_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-dwb7b_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-dwb7b_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:503::a",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:503::a",
+            "hop_id": "20250502_wehe-dwb7b_2600:1488:a200:503::a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:314::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:314::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:314::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:160e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:160e::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:160e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-dwb7b_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250502_wehe-wmwq8_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250502_wehe-wmwq8_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250502_wehe-wmwq8_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250502_wehe-wmwq8_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3203::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3203::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:3203::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:50e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:50e::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:50e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250502_wehe-wmwq8_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-vh6wv_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:308::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:308::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:308::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:a0e::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:a0e::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:a0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-vh6wv_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:26f7:f7d0::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "20940",
+          "hop_ASName": "Akamai International B.V.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250501_wehe-8fpfq_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250501_wehe-8fpfq_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::192",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::192",
+            "hop_id": "20250501_wehe-8fpfq_2001:41a8:4020:2::192",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1488:a200:505::b",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1488:a200::/48",
+            "hop_addr": "2600:1488:a200:505::b",
+            "hop_id": "20250501_wehe-8fpfq_2600:1488:a200:505::b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:3209::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:3209::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:3209::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:b0e::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:b0e::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:b0e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:600a::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:600a::1",
+            "hop_id": "20250501_wehe-8fpfq_2600:1403:9400:600a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250501_wehe-zf7cl_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:321::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:321::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:321::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:2310::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:2310::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:2310::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2600:1403:9400:620a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "20940",
+            "hop_ASName": "Akamai International B.V.",
+            "hop_CIDR": "2600:1403:9400::/48",
+            "hop_addr": "2600:1403:9400:620a::1",
+            "hop_id": "20250501_wehe-zf7cl_2600:1403:9400:620a::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

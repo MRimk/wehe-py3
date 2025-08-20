@@ -1,0 +1,2727 @@
+{
+  "ASN": "197556",
+  "ASName": "TNS-Plus LLP",
+  "subnet": "2a0d:b201:6020::/44",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::142",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-mq7nh_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-mq7nh_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2,2a0d:b200:6001:107::1",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "8"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::142",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-mq7nh_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-mq7nh_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2,2a0d:b200:6001:107::1",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "8"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::142",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-mq7nh_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-mq7nh_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2,2a0d:b200:6001:107::1",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "8"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::142",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-mq7nh_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-mq7nh_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-mq7nh_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-mq7nh_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2,2a0d:b200:6001:107::1",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-mq7nh_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "8"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::155",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2030:0:38::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2030:0:38::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c4::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-bz4mc_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "8"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "9"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::155",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2030:0:38::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2030:0:38::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c4::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-bz4mc_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "8"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "9"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::155",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2030:0:38::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2030:0:38::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c4::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-bz4mc_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "8"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "9"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::155",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2030:0:38::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2030:0:38::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c4::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-bz4mc_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-bz4mc_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-bz4mc_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-bz4mc_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "8"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-bz4mc_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "9"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::168",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-7nppq_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-7nppq_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-7nppq_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::168",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-7nppq_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-7nppq_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-7nppq_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::168",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-7nppq_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-7nppq_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-7nppq_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a0d:b200:6001:107::1",
+          "2a0d:b200:6001:100::2"
+        ],
+        "common_cidrs": [
+          "2a0d:b200::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "35168",
+          "hop_ASName": "TNS-Plus LLP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "9002",
+          "hop_ASName": "RETN Limited",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:38::/64",
+          "IP": "2001:2030:0:38::168",
+          "mlab_site": "arn04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:44::/64",
+          "IP": "2001:4c08:2003:44::78",
+          "mlab_site": "arn03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c4::1",
+            "hop_id": "20250503_wehe-7nppq_2001:2034:1:c4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:1b83::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2035:0:1b83::2",
+            "hop_id": "20250503_wehe-7nppq_2001:2035:0:1b83::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-7nppq_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-7nppq_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-7nppq_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:44::1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08:2003:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a1",
+            "hop_id": "20250503_wehe-kbxhb_2001:4c08::a1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a16",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a16",
+            "hop_id": "20250503_wehe-kbxhb_2001:1900:5:2:2::4a16",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8::57f5:e053",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8::57f5:e053",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8::57f5:e053",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:2d8:4:3002:232a::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "9002",
+            "hop_ASName": "RETN Limited",
+            "hop_CIDR": "2a02:2d8::/32",
+            "hop_addr": "2a02:2d8:4:3002:232a::1",
+            "hop_id": "20250503_wehe-kbxhb_2a02:2d8:4:3002:232a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a01:68c0::3:0:48",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "35168",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a01:68c0::/32",
+            "hop_addr": "2a01:68c0::3:0:48",
+            "hop_id": "20250503_wehe-kbxhb_2a01:68c0::3:0:48",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:107::1",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:107::1",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:107::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b200:6001:100::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "197556",
+            "hop_ASName": "TNS-Plus LLP",
+            "hop_CIDR": "2a0d:b200::/32",
+            "hop_addr": "2a0d:b200:6001:100::2",
+            "hop_id": "20250503_wehe-kbxhb_2a0d:b200:6001:100::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a0d:b201:6020::",
+            "offset": "7"
+          }
+        ]
+      }
+    }
+  ]
+}

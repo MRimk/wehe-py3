@@ -1,0 +1,124 @@
+{
+  "ASN": "34058",
+  "ASName": "Limited Liability Company lifecell",
+  "subnet": "46.96.8.0/21",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "212.221.42.128/26",
+          "IP": "212.221.42.142",
+          "mlab_site": "sof01"
+        },
+        "s2": {
+          "ASN": "13004",
+          "ASName": "Serbian Open Exchange DOO",
+          "CIDR": "188.120.127.0/26",
+          "IP": "188.120.127.40",
+          "mlab_site": "beg01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "212.221.0.0/17",
+            "hop_addr": "212.221.42.129",
+            "hop_id": "20250527_wehe-pwq5w_212.221.42.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.111.6,130.117.48.182",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "130.117.0.0/16",
+            "hop_addr": "130.117.48.182",
+            "hop_id": "20250527_wehe-pwq5w_130.117.48.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.61.177",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.61.177",
+            "hop_id": "20250527_wehe-pwq5w_154.54.61.177",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "149.29.12.90",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "149.29.0.0/16",
+            "hop_addr": "149.29.12.90",
+            "hop_id": "20250527_wehe-pwq5w_149.29.12.90",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "91.237.152.33",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-1884",
+            "hop_ASName": null,
+            "hop_CIDR": "91.237.152.33",
+            "hop_addr": "91.237.152.33",
+            "hop_id": "20250527_wehe-pwq5w_91.237.152.33",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "13004",
+            "hop_ASName": "Serbian Open Exchange DOO",
+            "hop_CIDR": "188.120.127.0/24",
+            "hop_addr": "188.120.127.1",
+            "hop_id": "20250527_wehe-l668b_188.120.127.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "10.91.25.90",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1908",
+            "hop_ASName": null,
+            "hop_CIDR": "185.1.62.175",
+            "hop_addr": "185.1.62.175",
+            "hop_id": "20250527_wehe-l668b_185.1.62.175",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "203.0.113.17",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-1090",
+            "hop_ASName": null,
+            "hop_CIDR": "203.0.113.17",
+            "hop_addr": "203.0.113.17",
+            "hop_id": "20250527_wehe-l668b_203.0.113.17",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

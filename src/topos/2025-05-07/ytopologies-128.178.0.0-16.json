@@ -1,0 +1,38 @@
+{
+  "ASN": "1111",
+  "ASName": "EPFL",
+  "subnet": "128.178.0.0/16",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "2222",
+          "hop_ASName": "<accessISP>",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1122",
+          "ASName": "EPFL NAL 1",
+          "CIDR": "128.179.209.156/26",
+          "IP": "128.179.209.156",
+          "mlab_site": "lis02"
+        },
+        "s2": {
+          "ASN": "2211",
+          "ASName": "EPFL NAL 2",
+          "CIDR": "128.178.122.150/26",
+          "IP": "128.178.122.150",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+      }
+    }]
+}

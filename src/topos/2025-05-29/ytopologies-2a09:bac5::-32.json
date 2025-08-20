@@ -1,0 +1,1107 @@
+{
+  "ASN": "13335",
+  "ASName": "Cloudflare, Inc.",
+  "subnet": "2a09:bac5::/32",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:981:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:981::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::206",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:145",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:145",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:145",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:966:1::1232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:966:1::1232",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:966:1::1232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250524_wehe-9b72v_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:981:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:981::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::206",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:145",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:145",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:145",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:179,2001:1498:1:966:1::1232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:966:1::1232",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:966:1::1232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250524_wehe-9b72v_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:26d6::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:981:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:981::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::206",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:145",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:145",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:145",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:179,2001:1498:1:966:1::1232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:966:1::1232",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:966:1::1232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250524_wehe-9b72v_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:26d6::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:da9::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:981:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:981::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "2001:1498:1:965::/64",
+          "IP": "2001:1498:1:965::219",
+          "mlab_site": "bog02"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::206",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:965::1",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:965::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:115",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1::100:145",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1::100:145",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1::100:145",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:966:1::1232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:966:1::1232",
+            "hop_id": "20250524_wehe-9b72v_2001:1498:1:966:1::1232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250524_wehe-9b72v_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-zgjn6_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-zgjn6_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:981:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:981::/48",
+            "hop_addr": "2400:cb00:981:3::",
+            "hop_id": "20250523_wehe-zgjn6_2400:cb00:981:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:da9::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:17:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:17::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::219",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250524_wehe-jqksk_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250524_wehe-jqksk_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::42",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::42",
+            "hop_id": "20250524_wehe-jqksk_2001:41a8:4020:2::42",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250524_wehe-jqksk_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-6glsv_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-6glsv_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-6glsv_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:17:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:17::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::219",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250524_wehe-jqksk_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250524_wehe-jqksk_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::42",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::42",
+            "hop_id": "20250524_wehe-jqksk_2001:41a8:4020:2::42",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250524_wehe-jqksk_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-6glsv_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-6glsv_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-6glsv_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:da9::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:17:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:17::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::219",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250524_wehe-jqksk_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250524_wehe-jqksk_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::42",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::42",
+            "hop_id": "20250524_wehe-jqksk_2001:41a8:4020:2::42",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250524_wehe-jqksk_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:26d6::",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-6glsv_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-6glsv_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-6glsv_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2400:cb00:17:3::"
+        ],
+        "common_cidrs": [
+          "2400:cb00:17::/48"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "2800:870:400:1::/64",
+          "IP": "2800:870:400:1::78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "262589",
+          "ASName": "INTERNEXA BRASIL OPERADORA DE TELECOMUNICACOES S.A",
+          "CIDR": "2804:680:15:1::/64",
+          "IP": "2804:680:15:1::219",
+          "mlab_site": "gru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2800:870::/32",
+            "hop_addr": "2800:870:400:1::1",
+            "hop_id": "20250524_wehe-jqksk_2800:870:400:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fe80::e59:9c0f:fc2d:6024",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1458409",
+            "hop_ASName": null,
+            "hop_CIDR": "fe80::e59:9c0f:fc2d:6024",
+            "hop_addr": "fe80::e59:9c0f:fc2d:6024",
+            "hop_id": "20250524_wehe-jqksk_fe80::e59:9c0f:fc2d:6024",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "2001:41a8:4020:2::42",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "2001:41a8::/32",
+            "hop_addr": "2001:41a8:4020:2::42",
+            "hop_id": "20250524_wehe-jqksk_2001:41a8:4020:2::42",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250524_wehe-jqksk_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:26d6::",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680::/32",
+            "hop_addr": "2804:680:15:1::1",
+            "hop_id": "20250523_wehe-6glsv_2804:680:15:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2804:680:900::6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2804:680:900::/40",
+            "hop_addr": "2804:680:900::6",
+            "hop_id": "20250523_wehe-6glsv_2804:680:900::6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2800:310:4:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "262589",
+            "hop_ASName": "Internexa Global Network",
+            "hop_CIDR": "2800:310::/32",
+            "hop_addr": "2800:310:4:1::1",
+            "hop_id": "20250523_wehe-6glsv_2800:310:4:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:200::62",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:200::62",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:200::62",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2400:cb00:17:3::",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13335",
+            "hop_ASName": "Cloudflare, Inc.",
+            "hop_CIDR": "2400:cb00:17::/48",
+            "hop_addr": "2400:cb00:17:3::",
+            "hop_id": "20250523_wehe-6glsv_2400:cb00:17:3::",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a09:bac5:da9::",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

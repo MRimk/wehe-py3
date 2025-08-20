@@ -1,0 +1,383 @@
+{
+  "ASN": "21928",
+  "ASName": "T-Mobile USA, Inc.",
+  "subnet": "2607:fb91:2e00::/40",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2200:44::/64",
+          "IP": "2001:1900:2200:44::142",
+          "mlab_site": "dfw03"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:3f00::/64",
+          "IP": "2001:5a0:3f00::78",
+          "mlab_site": "dfw02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2200:44::1",
+            "hop_id": "20250504_wehe-qpq9n_2001:1900:2200:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:160",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:160",
+            "hop_id": "20250504_wehe-qpq9n_2001:1900::3:160",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f00::1",
+            "hop_id": "20250504_wehe-nfpb7_2001:5a0:3f00::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:3f01:100::5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f01:100::5",
+            "hop_id": "20250504_wehe-nfpb7_2001:5a0:3f01:100::5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:1e6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:1e6f",
+            "hop_id": "20250504_wehe-nfpb7_2001:438:ffff::407d:1e6f",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2200:44::/64",
+          "IP": "2001:1900:2200:44::142",
+          "mlab_site": "dfw03"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:3f00::/64",
+          "IP": "2001:5a0:3f00::104",
+          "mlab_site": "dfw02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2200:44::1",
+            "hop_id": "20250504_wehe-qpq9n_2001:1900:2200:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:160",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:160",
+            "hop_id": "20250504_wehe-qpq9n_2001:1900::3:160",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f00::1",
+            "hop_id": "20250504_wehe-v7bwj_2001:5a0:3f00::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:3f01:100::5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f01:100::5",
+            "hop_id": "20250504_wehe-v7bwj_2001:5a0:3f01:100::5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:1e6d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:1e6d",
+            "hop_id": "20250504_wehe-v7bwj_2001:438:ffff::407d:1e6d",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:2000::/64",
+          "IP": "2001:550:2000::14",
+          "mlab_site": "dfw08"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:3f00::/64",
+          "IP": "2001:5a0:3f00::78",
+          "mlab_site": "dfw02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:2000::1",
+            "hop_id": "20250504_wehe-vgjwb_2001:550:2000::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f00::1",
+            "hop_id": "20250504_wehe-nfpb7_2001:5a0:3f00::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:3f01:100::5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f01:100::5",
+            "hop_id": "20250504_wehe-nfpb7_2001:5a0:3f01:100::5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:1e6f",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:1e6f",
+            "hop_id": "20250504_wehe-nfpb7_2001:438:ffff::407d:1e6f",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:2000::/64",
+          "IP": "2001:550:2000::14",
+          "mlab_site": "dfw08"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:3f00::/64",
+          "IP": "2001:5a0:3f00::104",
+          "mlab_site": "dfw02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:2000::1",
+            "hop_id": "20250504_wehe-vgjwb_2001:550:2000::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f00::1",
+            "hop_id": "20250504_wehe-v7bwj_2001:5a0:3f00::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:3f01:100::5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3f01:100::5",
+            "hop_id": "20250504_wehe-v7bwj_2001:5a0:3f01:100::5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:1e6d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:1e6d",
+            "hop_id": "20250504_wehe-v7bwj_2001:438:ffff::407d:1e6d",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:2000::/64",
+          "IP": "2001:550:2000::14",
+          "mlab_site": "dfw08"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2200:44::/64",
+          "IP": "2001:1900:2200:44::142",
+          "mlab_site": "dfw03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:2000::1",
+            "hop_id": "20250504_wehe-vgjwb_2001:550:2000::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2200:44::1",
+            "hop_id": "20250504_wehe-qpq9n_2001:1900:2200:44::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:160",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:160",
+            "hop_id": "20250504_wehe-qpq9n_2001:1900::3:160",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    }
+  ]
+}

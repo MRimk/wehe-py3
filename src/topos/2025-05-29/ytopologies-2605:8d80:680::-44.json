@@ -1,0 +1,526 @@
+{
+  "ASN": "812",
+  "ASName": "Rogers Communications Canada Inc.",
+  "subnet": "2605:8d80:680::/44",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2607:f798:10:359:0:2091:4823:5209",
+          "2607:f798:300:7:0:2091:4823:4022"
+        ],
+        "common_cidrs": [
+          "2607:f798::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "-207172",
+          "hop_ASName": null,
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:900::/64",
+          "IP": "2001:550:900::104",
+          "mlab_site": "yyz06"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:ff0d::/64",
+          "IP": "2001:668:1f:ff0d::14",
+          "mlab_site": "yyz03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:900::1",
+            "hop_id": "20250525_wehe-8lprn_2001:550:900::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:14:a::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:14:a::1",
+            "hop_id": "20250525_wehe-8lprn_2607:f798:14:a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:10:359:0:2091:4823:5209",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:10:359:0:2091:4823:5209",
+            "hop_id": "20250525_wehe-8lprn_2607:f798:10:359:0:2091:4823:5209",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:300:7:0:2091:4823:4022",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:300:7:0:2091:4823:4022",
+            "hop_id": "20250525_wehe-8lprn_2607:f798:300:7:0:2091:4823:4022",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2607:f230:144:8::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-207172",
+            "hop_ASName": null,
+            "hop_CIDR": "2607:f230:144:8::2",
+            "hop_addr": "2607:f230:144:8::2",
+            "hop_id": "20250525_wehe-8lprn_2607:f230:144:8::2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:ff0d::1",
+            "hop_id": "20250527_wehe-vzqjg_2001:668:1f:ff0d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6a26",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6a26",
+            "hop_id": "20250527_wehe-vzqjg_2001:668:0:2:ffff:0:8d88:6a26",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:4:3::77d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:4:3::77d",
+            "hop_id": "20250527_wehe-vzqjg_2001:1900:4:3::77d",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:1f3",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:1f3",
+            "hop_id": "20250527_wehe-vzqjg_2001:1900::3:1f3",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:2100::2caa",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2100::2caa",
+            "hop_id": "20250527_wehe-vzqjg_2001:1900:2100::2caa",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:10:359:0:2091:4823:5209",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:10:359:0:2091:4823:5209",
+            "hop_id": "20250527_wehe-vzqjg_2607:f798:10:359:0:2091:4823:5209",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:300:7:0:2091:4823:4022",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:300:7:0:2091:4823:4022",
+            "hop_id": "20250527_wehe-vzqjg_2607:f798:300:7:0:2091:4823:4022",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2607:f230:144:8::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "-207172",
+            "hop_ASName": null,
+            "hop_CIDR": "2607:f230:144:8::2",
+            "hop_addr": "2607:f230:144:8::2",
+            "hop_id": "20250527_wehe-vzqjg_2607:f230:144:8::2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2607:f798:10:359:0:2091:4823:5209",
+          "2607:f798:300:7:0:2091:4823:4022"
+        ],
+        "common_cidrs": [
+          "2607:f798::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "-207172",
+          "hop_ASName": null,
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:900::/64",
+          "IP": "2001:550:900::104",
+          "mlab_site": "yyz06"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:800:301::/64",
+          "IP": "2001:5a0:800:301::142",
+          "mlab_site": "yyz04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:900::1",
+            "hop_id": "20250525_wehe-8lprn_2001:550:900::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:14:a::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:14:a::1",
+            "hop_id": "20250525_wehe-8lprn_2607:f798:14:a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:10:359:0:2091:4823:5209",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:10:359:0:2091:4823:5209",
+            "hop_id": "20250525_wehe-8lprn_2607:f798:10:359:0:2091:4823:5209",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:300:7:0:2091:4823:4022",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:300:7:0:2091:4823:4022",
+            "hop_id": "20250525_wehe-8lprn_2607:f798:300:7:0:2091:4823:4022",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2607:f230:144:8::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-207172",
+            "hop_ASName": null,
+            "hop_CIDR": "2607:f230:144:8::2",
+            "hop_addr": "2607:f230:144:8::2",
+            "hop_id": "20250525_wehe-8lprn_2607:f230:144:8::2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:800:301::1",
+            "hop_id": "20250525_wehe-9knf6_2001:5a0:800:301::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:800:300::44,2001:5a0:800:300::3a",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:800:300::3a",
+            "hop_id": "20250525_wehe-9knf6_2001:5a0:800:300::3a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:10:359:0:2091:4823:5209",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:10:359:0:2091:4823:5209",
+            "hop_id": "20250525_wehe-9knf6_2607:f798:10:359:0:2091:4823:5209",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:300:7:0:2091:4823:4022",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:300:7:0:2091:4823:4022",
+            "hop_id": "20250525_wehe-9knf6_2607:f798:300:7:0:2091:4823:4022",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2607:f230:144:8::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-207172",
+            "hop_ASName": null,
+            "hop_CIDR": "2607:f230:144:8::2",
+            "hop_addr": "2607:f230:144:8::2",
+            "hop_id": "20250525_wehe-9knf6_2607:f230:144:8::2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2607:f798:10:359:0:2091:4823:5209",
+          "2607:f798:300:7:0:2091:4823:4022"
+        ],
+        "common_cidrs": [
+          "2607:f798::/32"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "-207172",
+          "hop_ASName": null,
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:ff0d::/64",
+          "IP": "2001:668:1f:ff0d::14",
+          "mlab_site": "yyz03"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:800:301::/64",
+          "IP": "2001:5a0:800:301::142",
+          "mlab_site": "yyz04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:ff0d::1",
+            "hop_id": "20250527_wehe-vzqjg_2001:668:1f:ff0d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6a26",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6a26",
+            "hop_id": "20250527_wehe-vzqjg_2001:668:0:2:ffff:0:8d88:6a26",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:4:3::77d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:4:3::77d",
+            "hop_id": "20250527_wehe-vzqjg_2001:1900:4:3::77d",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:1f3",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:1f3",
+            "hop_id": "20250527_wehe-vzqjg_2001:1900::3:1f3",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:2100::2caa",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2100::2caa",
+            "hop_id": "20250527_wehe-vzqjg_2001:1900:2100::2caa",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:10:359:0:2091:4823:5209",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:10:359:0:2091:4823:5209",
+            "hop_id": "20250527_wehe-vzqjg_2607:f798:10:359:0:2091:4823:5209",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:300:7:0:2091:4823:4022",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:300:7:0:2091:4823:4022",
+            "hop_id": "20250527_wehe-vzqjg_2607:f798:300:7:0:2091:4823:4022",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2607:f230:144:8::2",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "-207172",
+            "hop_ASName": null,
+            "hop_CIDR": "2607:f230:144:8::2",
+            "hop_addr": "2607:f230:144:8::2",
+            "hop_id": "20250527_wehe-vzqjg_2607:f230:144:8::2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:800:301::1",
+            "hop_id": "20250525_wehe-9knf6_2001:5a0:800:301::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:800:300::44,2001:5a0:800:300::3a",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:800:300::3a",
+            "hop_id": "20250525_wehe-9knf6_2001:5a0:800:300::3a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:10:359:0:2091:4823:5209",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:10:359:0:2091:4823:5209",
+            "hop_id": "20250525_wehe-9knf6_2607:f798:10:359:0:2091:4823:5209",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2607:f798:300:7:0:2091:4823:4022",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "812",
+            "hop_ASName": "Rogers Communications Canada Inc.",
+            "hop_CIDR": "2607:f798::/32",
+            "hop_addr": "2607:f798:300:7:0:2091:4823:4022",
+            "hop_id": "20250525_wehe-9knf6_2607:f798:300:7:0:2091:4823:4022",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2607:f230:144:8::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-207172",
+            "hop_ASName": null,
+            "hop_CIDR": "2607:f230:144:8::2",
+            "hop_addr": "2607:f230:144:8::2",
+            "hop_id": "20250525_wehe-9knf6_2607:f230:144:8::2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "ASN": "398378",
+  "ASName": null,
+  "subnet": "35.33.216.0/21",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.106.70.128/26",
+          "IP": "38.106.70.142",
+          "mlab_site": "lga08"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "173.205.4.64/26",
+          "IP": "173.205.4.104",
+          "mlab_site": "lga04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.106.70.129",
+            "hop_id": "20250502_wehe-gfppk_38.106.70.129",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "173.205.0.0/17",
+            "hop_addr": "173.205.4.65",
+            "hop_id": "20250503_wehe-7s4jh_173.205.4.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.119.186",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.119.186",
+            "hop_id": "20250503_wehe-7s4jh_213.200.119.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "173.205.4.64/26",
+          "IP": "173.205.4.104",
+          "mlab_site": "lga04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.14",
+          "mlab_site": "lga05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "173.205.0.0/17",
+            "hop_addr": "173.205.4.65",
+            "hop_id": "20250503_wehe-7s4jh_173.205.4.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.119.186",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.119.186",
+            "hop_id": "20250503_wehe-7s4jh_213.200.119.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-crc2h_4.35.94.1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "4.69.214.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.69.214.22",
+            "hop_id": "20250503_wehe-crc2h_4.69.214.22",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "173.205.4.64/26",
+          "IP": "173.205.4.104",
+          "mlab_site": "lga04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.14",
+          "mlab_site": "lga05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "173.205.0.0/17",
+            "hop_addr": "173.205.4.65",
+            "hop_id": "20250503_wehe-7s4jh_173.205.4.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.119.186",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.119.186",
+            "hop_id": "20250503_wehe-7s4jh_213.200.119.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-crc2h_4.35.94.1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "173.205.4.64/26",
+          "IP": "173.205.4.104",
+          "mlab_site": "lga04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.40",
+          "mlab_site": "lga05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "173.205.0.0/17",
+            "hop_addr": "173.205.4.65",
+            "hop_id": "20250503_wehe-7s4jh_173.205.4.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.119.186",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.119.186",
+            "hop_id": "20250503_wehe-7s4jh_213.200.119.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-5h4vm_4.35.94.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "4.69.209.82",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.69.209.82",
+            "hop_id": "20250503_wehe-5h4vm_4.69.209.82",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.106.70.128/26",
+          "IP": "38.106.70.142",
+          "mlab_site": "lga08"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.14",
+          "mlab_site": "lga05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.106.70.129",
+            "hop_id": "20250502_wehe-gfppk_38.106.70.129",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-crc2h_4.35.94.1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.106.70.128/26",
+          "IP": "38.106.70.142",
+          "mlab_site": "lga08"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.14",
+          "mlab_site": "lga05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.106.70.129",
+            "hop_id": "20250502_wehe-gfppk_38.106.70.129",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-crc2h_4.35.94.1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "4.69.214.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.69.214.22",
+            "hop_id": "20250503_wehe-crc2h_4.69.214.22",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.106.70.128/26",
+          "IP": "38.106.70.142",
+          "mlab_site": "lga08"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.40",
+          "mlab_site": "lga05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.106.70.129",
+            "hop_id": "20250502_wehe-gfppk_38.106.70.129",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-5h4vm_4.35.94.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "4.69.209.82",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.69.209.82",
+            "hop_id": "20250503_wehe-5h4vm_4.69.209.82",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "173.205.4.64/26",
+          "IP": "173.205.4.104",
+          "mlab_site": "lga04"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.119.192/26",
+          "IP": "128.177.119.206",
+          "mlab_site": "lga06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "173.205.0.0/17",
+            "hop_addr": "173.205.4.65",
+            "hop_id": "20250503_wehe-7s4jh_173.205.4.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.119.186",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.119.186",
+            "hop_id": "20250503_wehe-7s4jh_213.200.119.186",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.119.193",
+            "hop_id": "20250503_wehe-plqs6_128.177.119.193",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.106.70.128/26",
+          "IP": "38.106.70.142",
+          "mlab_site": "lga08"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.119.192/26",
+          "IP": "128.177.119.206",
+          "mlab_site": "lga06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.106.70.129",
+            "hop_id": "20250502_wehe-gfppk_38.106.70.129",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.119.193",
+            "hop_id": "20250503_wehe-plqs6_128.177.119.193",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.40",
+          "mlab_site": "lga05"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.119.192/26",
+          "IP": "128.177.119.206",
+          "mlab_site": "lga06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-5h4vm_4.35.94.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "4.69.209.82",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.69.209.82",
+            "hop_id": "20250503_wehe-5h4vm_4.69.209.82",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.119.193",
+            "hop_id": "20250503_wehe-plqs6_128.177.119.193",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.14",
+          "mlab_site": "lga05"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.119.192/26",
+          "IP": "128.177.119.206",
+          "mlab_site": "lga06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-crc2h_4.35.94.1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.119.193",
+            "hop_id": "20250503_wehe-plqs6_128.177.119.193",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "4.35.94.0/26",
+          "IP": "4.35.94.14",
+          "mlab_site": "lga05"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.119.192/26",
+          "IP": "128.177.119.206",
+          "mlab_site": "lga06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.35.94.1",
+            "hop_id": "20250503_wehe-crc2h_4.35.94.1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "4.69.214.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "4.0.0.0/9",
+            "hop_addr": "4.69.214.22",
+            "hop_id": "20250503_wehe-crc2h_4.69.214.22",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.119.193",
+            "hop_id": "20250503_wehe-plqs6_128.177.119.193",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "ASN": "7018",
+  "ASName": "AT&T Services, Inc.",
+  "subnet": "2600:300::/24",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:20e4::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:22::/64",
+          "IP": "2001:668:1f:22::78",
+          "mlab_site": "lga04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2100:14::/64",
+          "IP": "2001:1900:2100:14::14",
+          "mlab_site": "lga05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:22::1",
+            "hop_id": "20250423_wehe-4vbnt_2001:668:1f:22::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:5995:81c2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:5995:81c2",
+            "hop_id": "20250423_wehe-4vbnt_2001:668:0:2:ffff:0:5995:81c2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:20e4::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:20e4::1",
+            "hop_id": "20250423_wehe-4vbnt_2001:1890:f6:20e4::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2100:14::1",
+            "hop_id": "20250421_wehe-crc2h_2001:1900:2100:14::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:212",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:212",
+            "hop_id": "20250421_wehe-crc2h_2001:1900::3:212",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:20e4::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:20e4::1",
+            "hop_id": "20250421_wehe-crc2h_2001:1890:f6:20e4::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:20e4::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:22::/64",
+          "IP": "2001:668:1f:22::78",
+          "mlab_site": "lga04"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "2001:438:fffd:2b::/64",
+          "IP": "2001:438:fffd:2b::219",
+          "mlab_site": "lga06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:22::1",
+            "hop_id": "20250423_wehe-4vbnt_2001:668:1f:22::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:5995:81c2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:5995:81c2",
+            "hop_id": "20250423_wehe-4vbnt_2001:668:0:2:ffff:0:5995:81c2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:20e4::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:20e4::1",
+            "hop_id": "20250423_wehe-4vbnt_2001:1890:f6:20e4::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:fffd:2b::1",
+            "hop_id": "20250423_wehe-wcssq_2001:438:fffd:2b::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:193b",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:193b",
+            "hop_id": "20250423_wehe-wcssq_2001:438:ffff::407d:193b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:1fff:41e:192:205:37:37,2001:1890:f6:20e4::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:20e4::1",
+            "hop_id": "20250423_wehe-wcssq_2001:1890:f6:20e4::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:20e4::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2100:14::/64",
+          "IP": "2001:1900:2100:14::14",
+          "mlab_site": "lga05"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "2001:438:fffd:2b::/64",
+          "IP": "2001:438:fffd:2b::219",
+          "mlab_site": "lga06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2100:14::1",
+            "hop_id": "20250421_wehe-crc2h_2001:1900:2100:14::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:212",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:212",
+            "hop_id": "20250421_wehe-crc2h_2001:1900::3:212",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:20e4::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:20e4::1",
+            "hop_id": "20250421_wehe-crc2h_2001:1890:f6:20e4::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:fffd:2b::1",
+            "hop_id": "20250423_wehe-wcssq_2001:438:fffd:2b::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:193b",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:193b",
+            "hop_id": "20250423_wehe-wcssq_2001:438:ffff::407d:193b",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:1fff:41e:192:205:37:37,2001:1890:f6:20e4::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:20e4::1",
+            "hop_id": "20250423_wehe-wcssq_2001:1890:f6:20e4::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:252c::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:3200:1::/64",
+          "IP": "2001:550:3200:1::104",
+          "mlab_site": "sea08"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:1d::/64",
+          "IP": "2001:668:1f:1d::14",
+          "mlab_site": "sea03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:3200:1::1",
+            "hop_id": "20250421_wehe-skqn7_2001:550:3200:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:550:3::32",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:3::32",
+            "hop_id": "20250421_wehe-skqn7_2001:550:3::32",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-skqn7_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:1d::1",
+            "hop_id": "20250425_wehe-sdxpz_2001:668:1f:1d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:5995:8236",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:5995:8236",
+            "hop_id": "20250425_wehe-sdxpz_2001:668:0:2:ffff:0:5995:8236",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3::8000:15f2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3::8000:15f2",
+            "hop_id": "20250425_wehe-sdxpz_2001:668:0:3::8000:15f2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250425_wehe-sdxpz_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:252c::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:3200:1::/64",
+          "IP": "2001:550:3200:1::104",
+          "mlab_site": "sea08"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:1d::/64",
+          "IP": "2001:668:1f:1d::40",
+          "mlab_site": "sea03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:3200:1::1",
+            "hop_id": "20250421_wehe-skqn7_2001:550:3200:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:550:3::32",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:3::32",
+            "hop_id": "20250421_wehe-skqn7_2001:550:3::32",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-skqn7_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:1d::1",
+            "hop_id": "20250421_wehe-pcpf9_2001:668:1f:1d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:5995:824e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:5995:824e",
+            "hop_id": "20250421_wehe-pcpf9_2001:668:0:2:ffff:0:5995:824e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3::8000:15f2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3::8000:15f2",
+            "hop_id": "20250421_wehe-pcpf9_2001:668:0:3::8000:15f2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-pcpf9_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:252c::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:3200:1::/64",
+          "IP": "2001:550:3200:1::104",
+          "mlab_site": "sea08"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2100:16::/64",
+          "IP": "2001:1900:2100:16::155",
+          "mlab_site": "sea04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:3200:1::1",
+            "hop_id": "20250421_wehe-skqn7_2001:550:3200:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:550:3::32",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:3::32",
+            "hop_id": "20250421_wehe-skqn7_2001:550:3::32",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-skqn7_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2100:16::1",
+            "hop_id": "20250421_wehe-lgwvw_2001:1900:2100:16::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:217",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:217",
+            "hop_id": "20250421_wehe-lgwvw_2001:1900::3:217",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:1fff:222:192:205:32:125",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:1fff:222:192:205:32:125",
+            "hop_id": "20250421_wehe-lgwvw_2001:1890:1fff:222:192:205:32:125",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-lgwvw_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:252c::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:1d::/64",
+          "IP": "2001:668:1f:1d::14",
+          "mlab_site": "sea03"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2100:16::/64",
+          "IP": "2001:1900:2100:16::155",
+          "mlab_site": "sea04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:1d::1",
+            "hop_id": "20250425_wehe-sdxpz_2001:668:1f:1d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:5995:8236",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:5995:8236",
+            "hop_id": "20250425_wehe-sdxpz_2001:668:0:2:ffff:0:5995:8236",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3::8000:15f2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3::8000:15f2",
+            "hop_id": "20250425_wehe-sdxpz_2001:668:0:3::8000:15f2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250425_wehe-sdxpz_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2100:16::1",
+            "hop_id": "20250421_wehe-lgwvw_2001:1900:2100:16::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:217",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:217",
+            "hop_id": "20250421_wehe-lgwvw_2001:1900::3:217",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:1fff:222:192:205:32:125",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:1fff:222:192:205:32:125",
+            "hop_id": "20250421_wehe-lgwvw_2001:1890:1fff:222:192:205:32:125",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-lgwvw_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:1890:f6:252c::1"
+        ],
+        "common_cidrs": [
+          "2001:1890::/29"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:1d::/64",
+          "IP": "2001:668:1f:1d::40",
+          "mlab_site": "sea03"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:1900:2100:16::/64",
+          "IP": "2001:1900:2100:16::155",
+          "mlab_site": "sea04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:1d::1",
+            "hop_id": "20250421_wehe-pcpf9_2001:668:1f:1d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:5995:824e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:5995:824e",
+            "hop_id": "20250421_wehe-pcpf9_2001:668:0:2:ffff:0:5995:824e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3::8000:15f2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3::8000:15f2",
+            "hop_id": "20250421_wehe-pcpf9_2001:668:0:3::8000:15f2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-pcpf9_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:2100:16::1",
+            "hop_id": "20250421_wehe-lgwvw_2001:1900:2100:16::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900::3:217",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900::3:217",
+            "hop_id": "20250421_wehe-lgwvw_2001:1900::3:217",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:1fff:222:192:205:32:125",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:1fff:222:192:205:32:125",
+            "hop_id": "20250421_wehe-lgwvw_2001:1890:1fff:222:192:205:32:125",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1890:f6:252c::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "7018",
+            "hop_ASName": "AT&T Services, Inc.",
+            "hop_CIDR": "2001:1890::/29",
+            "hop_addr": "2001:1890:f6:252c::1",
+            "hop_id": "20250421_wehe-lgwvw_2001:1890:f6:252c::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "ASN": "21928",
+  "ASName": "T-Mobile USA, Inc.",
+  "subnet": "2607:fb91:8c00::/40",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:6c01::/64",
+          "IP": "2001:550:6c01::40",
+          "mlab_site": "mia02"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:1f::/64",
+          "IP": "2001:668:1f:1f::142",
+          "mlab_site": "mia04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:6c01::1",
+            "hop_id": "20250426_wehe-ms6gp_2001:550:6c01::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:1f::1",
+            "hop_id": "20250426_wehe-zfgvw_2001:668:1f:1f::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:d5c8:7196",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:d5c8:7196",
+            "hop_id": "20250426_wehe-zfgvw_2001:668:0:2:ffff:0:d5c8:7196",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407e:271",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407e:271",
+            "hop_id": "20250426_wehe-zfgvw_2001:438:ffff::407e:271",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:19a5",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:19a5",
+            "hop_id": "20250426_wehe-zfgvw_2001:438:ffff::407d:19a5",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:6c01::/64",
+          "IP": "2001:550:6c01::40",
+          "mlab_site": "mia02"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "2001:438:fffd:29::/64",
+          "IP": "2001:438:fffd:29::27",
+          "mlab_site": "mia05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:6c01::1",
+            "hop_id": "20250426_wehe-ms6gp_2001:550:6c01::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:fffd:29::1",
+            "hop_id": "20250426_wehe-qmx58_2001:438:fffd:29::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2001:438:ffff::407d:1724",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:ffff::407d:1724",
+            "hop_id": "20250426_wehe-qmx58_2001:438:ffff::407d:1724",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:6c01::/64",
+          "IP": "2001:550:6c01::40",
+          "mlab_site": "mia02"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "2001:438:fffd:29::/64",
+          "IP": "2001:438:fffd:29::40",
+          "mlab_site": "mia05"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:6c01::1",
+            "hop_id": "20250426_wehe-ms6gp_2001:550:6c01::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "2001:438::/32",
+            "hop_addr": "2001:438:fffd:29::1",
+            "hop_id": "20250426_wehe-vjpn6_2001:438:fffd:29::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ]
+      }
+    }
+  ]
+}

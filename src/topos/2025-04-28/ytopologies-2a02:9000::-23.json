@@ -1,0 +1,3231 @@
+{
+  "ASN": "3352",
+  "ASName": "TELEFONICA DE ESPANA",
+  "subnet": "2a02:9000::/23",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6,2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6,2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173",
+          "2a02:9002:106:f008::14"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173",
+          "2a02:9002:106:f008::14"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6,2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173",
+          "2a02:9002:106:f008::14"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6,2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::78",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-jfjvr_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:801::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:801::2",
+            "hop_id": "20250422_wehe-jfjvr_2001:1498:1:801::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::13",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::13",
+            "hop_id": "20250422_wehe-jfjvr_2a02:9002:106:f009::13",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173",
+          "2a02:9002:106:f008::14"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:63::/64",
+          "IP": "2001:668:1f:63::91",
+          "mlab_site": "mad04"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:63::1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:1f:63::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6ef1",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:2:ffff:0:8d88:6ef1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:3:ffff:0:9a0e:9de6",
+            "hop_id": "20250422_wehe-rmdq9_2001:668:0:3:ffff:0:9a0e:9de6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:82d::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:82d::2",
+            "hop_id": "20250422_wehe-rmdq9_2001:1498:1:82d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-rmdq9_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "2a02:9130:8821::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:9002:200:ffff:81:46:188:173"
+        ],
+        "common_cidrs": [
+          "2a02:9000::/23"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:3d::/64",
+          "IP": "2001:4c08:2003:3d::219",
+          "mlab_site": "lis01"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:2a00:201::/64",
+          "IP": "2001:5a0:2a00:201::206",
+          "mlab_site": "mad06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:3d::1",
+            "hop_id": "20250422_wehe-w5n6n_2001:4c08:2003:3d::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::4e6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::4e6",
+            "hop_id": "20250422_wehe-w5n6n_2001:1900:5:3::4e6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84a::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84a::2",
+            "hop_id": "20250422_wehe-w5n6n_2001:1498:1:84a::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f009::c",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f009::c",
+            "hop_id": "20250422_wehe-w5n6n_2a02:9002:106:f009::c",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:201::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:201::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:2a00:200::2e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:2a00:200::2e",
+            "hop_id": "20250422_wehe-8l9rq_2001:5a0:2a00:200::2e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:40a::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:40a::1",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:40a::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1498:1:84b::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "2001:1498::/32",
+            "hop_addr": "2001:1498:1:84b::2",
+            "hop_id": "20250422_wehe-8l9rq_2001:1498:1:84b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:200:ffff:81:46:188:173",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:200:ffff:81:46:188:173",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:200:ffff:81:46:188:173",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:9002:106:f008::14",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "3352",
+            "hop_ASName": "TELEFONICA DE ESPANA",
+            "hop_CIDR": "2a02:9000::/23",
+            "hop_addr": "2a02:9002:106:f008::14",
+            "hop_id": "20250422_wehe-8l9rq_2a02:9002:106:f008::14",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    }
+  ]
+}

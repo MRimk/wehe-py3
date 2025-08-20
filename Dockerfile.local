@@ -1,0 +1,48 @@
+FROM ubuntu:20.04
+
+# Load the gcloud configuration
+COPY gcloud-config /root/.config/gcloud
+
+ENV CLOUDSDK_CONFIG=/root/.config/gcloud
+ENV GOOGLE_APPLICATION_CREDENTIALS=/root/.config/gcloud/application_default_credentials.json
+
+# Install dependencies
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install --yes \
+   apt-utils gcc libc-dev libcap2-bin libmysqlclient-dev python3 python3-pip \
+   tcpdump tcpreplay tshark wireshark scapy netcat apt-transport-https ca-certificates gnupg curl
+  
+# Install and initialize Google Cloud SDK
+RUN echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | \
+    tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && \
+    curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | \ 
+    gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg && \
+    apt-get update -y && \
+    apt-get install google-cloud-cli -y
+RUN gcloud init
+    
+# Install Python packages
+RUN pip3 install timezonefinder future gevent matplotlib multiprocessing_logging "mysqlclient<2.1.1" \
+  netaddr prometheus_client psutil reverse-geocode reverse-geocoder \
+  "tornado<6.0.0" "urllib3<2.0" google-cloud-bigquery requests pandas bs4 lxml pytest
+
+# Allow user nobody to execute tcpdump, and add CAP_NET_RAW capability to the
+# tcpdump binary.
+RUN chgrp tcpdump /usr/sbin/tcpdump && adduser nobody tcpdump
+RUN setcap cap_net_raw=ep /usr/sbin/tcpdump
+
+ADD src /wehe
+ADD replayTraces /replayTraces
+ADD uuid_prefix_tag.txt /uuid_prefix_tag.txt
+
+ADD docker-entrypoint.sh    /wehe/docker-entrypoint.sh
+
+WORKDIR /wehe
+# You must provide a local hostname argument when you start this image, as well
+# as the net interface to listen on.
+
+# switch to your entrypoint
+ENTRYPOINT ["/bin/bash", "./docker-entrypoint.sh"]
+
+# preserve the ability to pass args (e.g. hostname)
+CMD []
+

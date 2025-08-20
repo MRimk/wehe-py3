@@ -1,0 +1,1228 @@
+{
+  "ASN": "12479",
+  "ASName": "Orange Espagne SA",
+  "subnet": "90.167.95.0/24",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "154.14.11.192/26",
+          "IP": "154.14.11.232",
+          "mlab_site": "mrs02"
+        },
+        "s2": {
+          "ASN": "49638",
+          "ASName": "Consorci de Serveis Universitaris de Catalunya",
+          "CIDR": "91.213.30.192/26",
+          "IP": "91.213.30.219",
+          "mlab_site": "bcn01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "154.14.0.0/16",
+            "hop_addr": "154.14.11.193",
+            "hop_id": "20250424_wehe-6wcjf_154.14.11.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.126.145",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.126.145",
+            "hop_id": "20250424_wehe-6wcjf_213.200.126.145",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "212.222.182.94",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "212.222.0.0/16",
+            "hop_addr": "212.222.182.94",
+            "hop_id": "20250424_wehe-6wcjf_212.222.182.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-6wcjf_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-6wcjf_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "49638",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "91.213.30.0/24",
+            "hop_addr": "91.213.30.193",
+            "hop_id": "20250424_wehe-vg5cm_91.213.30.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.89.2.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "13041",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "84.89.0.0/18",
+            "hop_addr": "84.89.2.21",
+            "hop_id": "20250424_wehe-vg5cm_84.89.2.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.242.98.10",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "-1672",
+            "hop_ASName": null,
+            "hop_CIDR": "193.242.98.10",
+            "hop_addr": "193.242.98.10",
+            "hop_id": "20250424_wehe-vg5cm_193.242.98.10",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "10.34.35.197",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "154.14.11.192/26",
+          "IP": "154.14.11.206",
+          "mlab_site": "mrs02"
+        },
+        "s2": {
+          "ASN": "49638",
+          "ASName": "Consorci de Serveis Universitaris de Catalunya",
+          "CIDR": "91.213.30.192/26",
+          "IP": "91.213.30.219",
+          "mlab_site": "bcn01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "154.14.0.0/16",
+            "hop_addr": "154.14.11.193",
+            "hop_id": "20250424_wehe-v8vn7_154.14.11.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.111.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.111.174",
+            "hop_id": "20250424_wehe-v8vn7_141.136.111.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "212.222.182.94",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "212.222.0.0/16",
+            "hop_addr": "212.222.182.94",
+            "hop_id": "20250424_wehe-v8vn7_212.222.182.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-v8vn7_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-v8vn7_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "49638",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "91.213.30.0/24",
+            "hop_addr": "91.213.30.193",
+            "hop_id": "20250424_wehe-vg5cm_91.213.30.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.89.2.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "13041",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "84.89.0.0/18",
+            "hop_addr": "84.89.2.21",
+            "hop_id": "20250424_wehe-vg5cm_84.89.2.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.242.98.10",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "-1672",
+            "hop_ASName": null,
+            "hop_CIDR": "193.242.98.10",
+            "hop_addr": "193.242.98.10",
+            "hop_id": "20250424_wehe-vg5cm_193.242.98.10",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "10.34.35.197",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "154.14.11.192/26",
+          "IP": "154.14.11.206",
+          "mlab_site": "mrs02"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.219",
+          "mlab_site": "mrs04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "154.14.0.0/16",
+            "hop_addr": "154.14.11.193",
+            "hop_id": "20250424_wehe-v8vn7_154.14.11.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.111.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.111.174",
+            "hop_id": "20250424_wehe-v8vn7_141.136.111.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "212.222.182.94",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "212.222.0.0/16",
+            "hop_addr": "212.222.182.94",
+            "hop_id": "20250424_wehe-v8vn7_212.222.182.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-v8vn7_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-v8vn7_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-x4sc4_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-x4sc4_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-x4sc4_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250424_wehe-x4sc4_195.219.87.56",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "154.14.11.192/26",
+          "IP": "154.14.11.232",
+          "mlab_site": "mrs02"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.232",
+          "mlab_site": "mrs04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "154.14.0.0/16",
+            "hop_addr": "154.14.11.193",
+            "hop_id": "20250424_wehe-6wcjf_154.14.11.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.126.145",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.126.145",
+            "hop_id": "20250424_wehe-6wcjf_213.200.126.145",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "212.222.182.94",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "212.222.0.0/16",
+            "hop_addr": "212.222.182.94",
+            "hop_id": "20250424_wehe-6wcjf_212.222.182.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-6wcjf_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-6wcjf_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-nnwp9_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-nnwp9_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-nnwp9_195.219.187.7",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "154.14.11.192/26",
+          "IP": "154.14.11.232",
+          "mlab_site": "mrs02"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.219",
+          "mlab_site": "mrs04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "154.14.0.0/16",
+            "hop_addr": "154.14.11.193",
+            "hop_id": "20250424_wehe-6wcjf_154.14.11.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.200.126.145",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "213.200.64.0/18",
+            "hop_addr": "213.200.126.145",
+            "hop_id": "20250424_wehe-6wcjf_213.200.126.145",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "212.222.182.94",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "212.222.0.0/16",
+            "hop_addr": "212.222.182.94",
+            "hop_id": "20250424_wehe-6wcjf_212.222.182.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-6wcjf_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-6wcjf_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-x4sc4_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-x4sc4_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-x4sc4_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250424_wehe-x4sc4_195.219.87.56",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "154.14.11.192/26",
+          "IP": "154.14.11.206",
+          "mlab_site": "mrs02"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.232",
+          "mlab_site": "mrs04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "154.14.0.0/16",
+            "hop_addr": "154.14.11.193",
+            "hop_id": "20250424_wehe-v8vn7_154.14.11.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.111.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.111.174",
+            "hop_id": "20250424_wehe-v8vn7_141.136.111.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "212.222.182.94",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "212.222.0.0/16",
+            "hop_addr": "212.222.182.94",
+            "hop_id": "20250424_wehe-v8vn7_212.222.182.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-v8vn7_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-v8vn7_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-nnwp9_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-nnwp9_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-nnwp9_195.219.187.7",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.232",
+          "mlab_site": "mrs04"
+        },
+        "s2": {
+          "ASN": "49638",
+          "ASName": "Consorci de Serveis Universitaris de Catalunya",
+          "CIDR": "91.213.30.192/26",
+          "IP": "91.213.30.219",
+          "mlab_site": "bcn01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-nnwp9_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-nnwp9_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-nnwp9_195.219.187.7",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "49638",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "91.213.30.0/24",
+            "hop_addr": "91.213.30.193",
+            "hop_id": "20250424_wehe-vg5cm_91.213.30.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.89.2.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "13041",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "84.89.0.0/18",
+            "hop_addr": "84.89.2.21",
+            "hop_id": "20250424_wehe-vg5cm_84.89.2.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.242.98.10",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "-1672",
+            "hop_ASName": null,
+            "hop_CIDR": "193.242.98.10",
+            "hop_addr": "193.242.98.10",
+            "hop_id": "20250424_wehe-vg5cm_193.242.98.10",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "10.34.35.197",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.219",
+          "mlab_site": "mrs04"
+        },
+        "s2": {
+          "ASN": "49638",
+          "ASName": "Consorci de Serveis Universitaris de Catalunya",
+          "CIDR": "91.213.30.192/26",
+          "IP": "91.213.30.219",
+          "mlab_site": "bcn01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-x4sc4_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-x4sc4_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-x4sc4_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250424_wehe-x4sc4_195.219.87.56",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "49638",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "91.213.30.0/24",
+            "hop_addr": "91.213.30.193",
+            "hop_id": "20250424_wehe-vg5cm_91.213.30.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.89.2.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "13041",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "84.89.0.0/18",
+            "hop_addr": "84.89.2.21",
+            "hop_id": "20250424_wehe-vg5cm_84.89.2.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.242.98.10",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "-1672",
+            "hop_ASName": null,
+            "hop_CIDR": "193.242.98.10",
+            "hop_addr": "193.242.98.10",
+            "hop_id": "20250424_wehe-vg5cm_193.242.98.10",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "10.34.35.197",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.73.211.64/26",
+          "IP": "212.73.211.78",
+          "mlab_site": "mrs01"
+        },
+        "s2": {
+          "ASN": "49638",
+          "ASName": "Consorci de Serveis Universitaris de Catalunya",
+          "CIDR": "91.213.30.192/26",
+          "IP": "91.213.30.219",
+          "mlab_site": "bcn01"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.73.192.0/18",
+            "hop_addr": "212.73.211.65",
+            "hop_id": "20250424_wehe-mv8xh_212.73.211.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-mv8xh_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-mv8xh_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "49638",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "91.213.30.0/24",
+            "hop_addr": "91.213.30.193",
+            "hop_id": "20250424_wehe-vg5cm_91.213.30.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.89.2.21",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "13041",
+            "hop_ASName": "Consorci de Serveis Universitaris de Catalunya",
+            "hop_CIDR": "84.89.0.0/18",
+            "hop_addr": "84.89.2.21",
+            "hop_id": "20250424_wehe-vg5cm_84.89.2.21",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.242.98.10",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "-1672",
+            "hop_ASName": null,
+            "hop_CIDR": "193.242.98.10",
+            "hop_addr": "193.242.98.10",
+            "hop_id": "20250424_wehe-vg5cm_193.242.98.10",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "10.34.35.197",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.73.211.64/26",
+          "IP": "212.73.211.78",
+          "mlab_site": "mrs01"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.232",
+          "mlab_site": "mrs04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.73.192.0/18",
+            "hop_addr": "212.73.211.65",
+            "hop_id": "20250424_wehe-mv8xh_212.73.211.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-mv8xh_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-mv8xh_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-nnwp9_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-nnwp9_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-nnwp9_195.219.187.7",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "212.73.211.64/26",
+          "IP": "212.73.211.78",
+          "mlab_site": "mrs01"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.192/26",
+          "IP": "162.213.98.219",
+          "mlab_site": "mrs04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "212.73.192.0/18",
+            "hop_addr": "212.73.211.65",
+            "hop_id": "20250424_wehe-mv8xh_212.73.211.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.183",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.183",
+            "hop_id": "20250424_wehe-mv8xh_171.75.8.183",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.242.108.118",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.108.118",
+            "hop_id": "20250424_wehe-mv8xh_213.242.108.118",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.193",
+            "hop_id": "20250424_wehe-x4sc4_162.213.98.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.175.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.175.2",
+            "hop_id": "20250424_wehe-x4sc4_195.219.175.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.187.7",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250424_wehe-x4sc4_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250424_wehe-x4sc4_195.219.87.56",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

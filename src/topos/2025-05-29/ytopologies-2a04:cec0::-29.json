@@ -1,0 +1,146 @@
+{
+  "ASN": "5410",
+  "ASName": "Bouygues Telecom SA",
+  "subnet": "2a04:cec0::/29",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2001:860:bbee:c0::1"
+        ],
+        "common_cidrs": [
+          "2001:860::/29"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "3356",
+          "hop_ASName": "Level 3 Parent, LLC",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250525_wehe-ch8db_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::321",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::321",
+            "hop_id": "20250525_wehe-ch8db_2001:1900:5:3::321",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::c3",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::c3",
+            "hop_id": "20250525_wehe-ch8db_2001:4c08::c3",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a52",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a52",
+            "hop_id": "20250525_wehe-ch8db_2001:1900:5:2:2::4a52",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:860:bbee:c0::1",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "5410",
+            "hop_ASName": "Bouygues Telecom SA",
+            "hop_CIDR": "2001:860::/29",
+            "hop_addr": "2001:860:bbee:c0::1",
+            "hop_id": "20250525_wehe-ch8db_2001:860:bbee:c0::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250525_wehe-8rgqd_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::c3",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::c3",
+            "hop_id": "20250525_wehe-8rgqd_2001:4c08::c3",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:2:2::4a52",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:2:2::4a52",
+            "hop_id": "20250525_wehe-8rgqd_2001:1900:5:2:2::4a52",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:860:bbee:c0::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "5410",
+            "hop_ASName": "Bouygues Telecom SA",
+            "hop_CIDR": "2001:860::/29",
+            "hop_addr": "2001:860:bbee:c0::1",
+            "hop_id": "20250525_wehe-8rgqd_2001:860:bbee:c0::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

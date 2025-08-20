@@ -1,0 +1,431 @@
+{
+  "ASN": "12400",
+  "ASName": "Partner Communications Ltd.",
+  "subnet": "2a0d:6fc7::/32",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:3::/64",
+          "IP": "2001:2030:0:3::14",
+          "mlab_site": "sof02"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:0:1000::9a36:3db5",
+            "hop_id": "20250425_wehe-f2ndj_2001:550:0:1000::9a36:3db5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:978:2:14::11:3",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:978::/32",
+            "hop_addr": "2001:978:2:14::11:3",
+            "hop_id": "20250425_wehe-f2ndj_2001:978:2:14::11:3",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:1::17d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:1::17d",
+            "hop_id": "20250425_wehe-fcwtt_2001:798:1::17d",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:cc:1::e5",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:cc:1::e5",
+            "hop_id": "20250425_wehe-fcwtt_2001:798:cc:1::e5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:470:0:33f::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "2001:470::/32",
+            "hop_addr": "2001:470:0:33f::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:470:0:33f::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:3::/64",
+          "IP": "2001:2030:0:3::14",
+          "mlab_site": "sof02"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::142",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:0:1000::9a36:3db5",
+            "hop_id": "20250425_wehe-f2ndj_2001:550:0:1000::9a36:3db5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:978:2:14::11:3",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:978::/32",
+            "hop_addr": "2001:978:2:14::11:3",
+            "hop_id": "20250425_wehe-f2ndj_2001:978:2:14::11:3",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "203348",
+            "hop_ASName": "Hellenic Telecommunications and Post Commision",
+            "hop_CIDR": "2001:648:25e0::/48",
+            "hop_addr": "2001:648:25e0::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:25e0::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ffd:3348:3::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-fcwtt_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:1::17d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:1::17d",
+            "hop_id": "20250425_wehe-fcwtt_2001:798:1::17d",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:cc:1::e5",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:cc:1::e5",
+            "hop_id": "20250425_wehe-fcwtt_2001:798:cc:1::e5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:470:0:33f::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "2001:470::/32",
+            "hop_addr": "2001:470:0:33f::2",
+            "hop_id": "20250425_wehe-fcwtt_2001:470:0:33f::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:3::/64",
+          "IP": "2001:2030:0:3::14",
+          "mlab_site": "sof02"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::155",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:0:1000::9a36:3db5",
+            "hop_id": "20250425_wehe-f2ndj_2001:550:0:1000::9a36:3db5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:978:2:14::11:3",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:978::/32",
+            "hop_addr": "2001:978:2:14::11:3",
+            "hop_id": "20250425_wehe-f2ndj_2001:978:2:14::11:3",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "203348",
+            "hop_ASName": "Hellenic Telecommunications and Post Commision",
+            "hop_CIDR": "2001:648:25e0::/48",
+            "hop_addr": "2001:648:25e0::1",
+            "hop_id": "20250425_wehe-d6hfw_2001:648:25e0::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:648:2ffd:3348:3::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-d6hfw_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:1::17d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:1::17d",
+            "hop_id": "20250425_wehe-d6hfw_2001:798:1::17d",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:cc:1::e5",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:cc:1::e5",
+            "hop_id": "20250425_wehe-d6hfw_2001:798:cc:1::e5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:470:0:41d::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "2001:470::/32",
+            "hop_addr": "2001:470:0:41d::2",
+            "hop_id": "20250425_wehe-d6hfw_2001:470:0:41d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8::239c:0:2",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-86344",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8::239c:0:2",
+            "hop_addr": "2001:7f8::239c:0:2",
+            "hop_id": "20250425_wehe-d6hfw_2001:7f8::239c:0:2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "2001:2030:0:3::/64",
+          "IP": "2001:2030:0:3::14",
+          "mlab_site": "sof02"
+        },
+        "s2": {
+          "ASN": "203348",
+          "ASName": "Hellenic Telecommunications and Post Commision",
+          "CIDR": "2001:648:25e0::/64",
+          "IP": "2001:648:25e0::155",
+          "mlab_site": "ath03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:0:1000::9a36:3db5",
+            "hop_id": "20250425_wehe-f2ndj_2001:550:0:1000::9a36:3db5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:978:2:14::11:3",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:978::/32",
+            "hop_addr": "2001:978:2:14::11:3",
+            "hop_id": "20250425_wehe-f2ndj_2001:978:2:14::11:3",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "5408",
+            "hop_ASName": "Greek Research and Technology Network S.A",
+            "hop_CIDR": "2001:648::/29",
+            "hop_addr": "2001:648:2ffd:3348:3::1",
+            "hop_id": "20250425_wehe-d6hfw_2001:648:2ffd:3348:3::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:1::17d",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:1::17d",
+            "hop_id": "20250425_wehe-d6hfw_2001:798:1::17d",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:798:cc:1::e5",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "20965",
+            "hop_ASName": "GEANT Limited",
+            "hop_CIDR": "2001:798::/32",
+            "hop_addr": "2001:798:cc:1::e5",
+            "hop_id": "20250425_wehe-d6hfw_2001:798:cc:1::e5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:470:0:41d::2",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "2001:470::/32",
+            "hop_addr": "2001:470:0:41d::2",
+            "hop_id": "20250425_wehe-d6hfw_2001:470:0:41d::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:7f8::239c:0:2",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-86344",
+            "hop_ASName": null,
+            "hop_CIDR": "2001:7f8::239c:0:2",
+            "hop_addr": "2001:7f8::239c:0:2",
+            "hop_id": "20250425_wehe-d6hfw_2001:7f8::239c:0:2",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ]
+      }
+    }
+  ]
+}

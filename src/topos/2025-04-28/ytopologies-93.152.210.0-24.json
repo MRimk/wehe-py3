@@ -1,0 +1,1759 @@
+{
+  "ASN": "209854",
+  "ASName": null,
+  "subnet": "93.152.210.0/24",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "38.102.163.128/26",
+          "IP": "38.102.163.155",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.102.163.129",
+            "hop_id": "20250421_wehe-9hd8x_38.102.163.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.43.13",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.43.13",
+            "hop_id": "20250421_wehe-9hd8x_154.54.43.13",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.170.150",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.170.150",
+            "hop_id": "20250421_wehe-9hd8x_154.54.170.150",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "38.122.223.178",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "38.0.0.0/9",
+            "hop_addr": "38.122.223.178",
+            "hop_id": "20250421_wehe-9hd8x_38.122.223.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-9hd8x_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "6424",
+          "hop_ASName": "Sitestar Internet Services",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "192.158.252.176/28",
+          "IP": "192.158.252.184",
+          "mlab_site": "nuq08"
+        },
+        "s2": {
+          "ASN": "6461",
+          "ASName": "Zayo Bandwidth",
+          "CIDR": "128.177.109.128/26",
+          "IP": "128.177.109.168",
+          "mlab_site": "nuq06"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "192.158.252.0/24",
+            "hop_addr": "192.158.252.188",
+            "hop_id": "20250421_wehe-rbxlk_192.158.252.188",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.62.180.45,184.105.222.5",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.105.222.5",
+            "hop_id": "20250421_wehe-rbxlk_184.105.222.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "184.104.188.226",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "184.104.0.0/15",
+            "hop_addr": "184.104.188.226",
+            "hop_id": "20250421_wehe-rbxlk_184.104.188.226",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "206.197.187.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-2505",
+            "hop_ASName": null,
+            "hop_CIDR": "206.197.187.81",
+            "hop_addr": "206.197.187.81",
+            "hop_id": "20250421_wehe-rbxlk_206.197.187.81",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-rbxlk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "128.177.0.0/16",
+            "hop_addr": "128.177.109.129",
+            "hop_id": "20250421_wehe-5bbqk_128.177.109.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "64.125.23.215",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "64.125.0.0/16",
+            "hop_addr": "64.125.23.215",
+            "hop_id": "20250421_wehe-5bbqk_64.125.23.215",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.200.130.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6461",
+            "hop_ASName": "Zayo Bandwidth",
+            "hop_CIDR": "216.200.128.0/19",
+            "hop_addr": "216.200.130.213",
+            "hop_id": "20250421_wehe-5bbqk_216.200.130.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.64",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.64",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.64",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "193.109.190.17",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6424",
+            "hop_ASName": "Sitestar Internet Services",
+            "hop_CIDR": "193.109.184.0/21",
+            "hop_addr": "193.109.190.17",
+            "hop_id": "20250421_wehe-5bbqk_193.109.190.17",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "93.152.210.0",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

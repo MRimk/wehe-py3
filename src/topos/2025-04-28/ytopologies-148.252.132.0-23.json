@@ -1,0 +1,131 @@
+{
+  "ASN": "25135",
+  "ASName": "Vodafone Limited",
+  "subnet": "148.252.132.0/23",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "1273",
+          "hop_ASName": "Vodafone Group PLC",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.0/26",
+          "IP": "195.89.146.14",
+          "mlab_site": "lhr04"
+        },
+        "s2": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.96.0/26",
+          "IP": "162.213.96.40",
+          "mlab_site": "lhr07"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.1",
+            "hop_id": "20250426_wehe-b8cw2_195.89.146.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.9.98",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.9.98",
+            "hop_id": "20250426_wehe-b8cw2_195.2.9.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.89.96.114",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.96.114",
+            "hop_id": "20250426_wehe-b8cw2_195.89.96.114",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.96.1",
+            "hop_id": "20250426_wehe-ldsnl_162.213.96.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "149.3.183.67",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "149.3.176.0/21",
+            "hop_addr": "149.3.183.67",
+            "hop_id": "20250426_wehe-ldsnl_149.3.183.67",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.144.164.129",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "213.144.160.0/19",
+            "hop_addr": "213.144.164.129",
+            "hop_id": "20250426_wehe-ldsnl_213.144.164.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.9.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.9.98",
+            "hop_id": "20250426_wehe-ldsnl_195.2.9.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.89.96.114",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.96.114",
+            "hop_id": "20250426_wehe-ldsnl_195.89.96.114",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

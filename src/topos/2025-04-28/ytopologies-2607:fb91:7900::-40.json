@@ -1,0 +1,204 @@
+{
+  "ASN": "21928",
+  "ASName": "T-Mobile USA, Inc.",
+  "subnet": "2607:fb91:7900::/40",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:1502::/64",
+          "IP": "2001:550:1502::142",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "2001:4f8:ffff:3::/64",
+          "IP": "2001:4f8:ffff:3::184",
+          "mlab_site": "nuq08"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:1502::1",
+            "hop_id": "20250424_wehe-csn5n_2001:550:1502::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "2001:4f8:ffff::/48",
+            "hop_addr": "2001:4f8:ffff:3::fffe",
+            "hop_id": "20250424_wehe-rbxlk_2001:4f8:ffff:3::fffe",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:470:0:588::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "2001:470::/32",
+            "hop_addr": "2001:470:0:588::2",
+            "hop_id": "20250424_wehe-rbxlk_2001:470:0:588::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "174",
+          "ASName": "Cogent Communications",
+          "CIDR": "2001:550:1502::/64",
+          "IP": "2001:550:1502::142",
+          "mlab_site": "nuq03"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:3e00::/64",
+          "IP": "2001:5a0:3e00::104",
+          "mlab_site": "nuq04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:1502::1",
+            "hop_id": "20250424_wehe-csn5n_2001:550:1502::1",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "0"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3e00::1",
+            "hop_id": "20250424_wehe-vdrgx_2001:5a0:3e00::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:3e02:100::11,2001:5a0:3e02:100::25",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3e02:100::25",
+            "hop_id": "20250424_wehe-vdrgx_2001:5a0:3e02:100::25",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1280",
+          "ASName": "Internet Systems Consortium, Inc.",
+          "CIDR": "2001:4f8:ffff:3::/64",
+          "IP": "2001:4f8:ffff:3::184",
+          "mlab_site": "nuq08"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "2001:5a0:3e00::/64",
+          "IP": "2001:5a0:3e00::104",
+          "mlab_site": "nuq04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1280",
+            "hop_ASName": "Internet Systems Consortium, Inc.",
+            "hop_CIDR": "2001:4f8:ffff::/48",
+            "hop_addr": "2001:4f8:ffff:3::fffe",
+            "hop_id": "20250424_wehe-rbxlk_2001:4f8:ffff:3::fffe",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:470:0:588::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6939",
+            "hop_ASName": "Hurricane Electric LLC",
+            "hop_CIDR": "2001:470::/32",
+            "hop_addr": "2001:470:0:588::2",
+            "hop_id": "20250424_wehe-rbxlk_2001:470:0:588::2",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3e00::1",
+            "hop_id": "20250424_wehe-vdrgx_2001:5a0:3e00::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5a0:3e02:100::11,2001:5a0:3e02:100::25",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "2001:5a0::/32",
+            "hop_addr": "2001:5a0:3e02:100::25",
+            "hop_id": "20250424_wehe-vdrgx_2001:5a0:3e02:100::25",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "ASN": "12958",
+  "ASName": "T2 Mobile LLC",
+  "subnet": "176.59.168.0/22",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": [
+          "176.59.32.0/19"
+        ]
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "-1900",
+          "hop_ASName": null,
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "1299",
+          "hop_ASName": "Telia Company AB",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.192/26",
+          "IP": "195.89.146.206",
+          "mlab_site": "arn02"
+        },
+        "s2": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "62.115.225.128/26",
+          "IP": "62.115.225.168",
+          "mlab_site": "arn04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.193",
+            "hop_id": "20250426_wehe-vnsmf_195.89.146.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.29.222,62.115.139.180",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "62.115.0.0/16",
+            "hop_addr": "62.115.139.180",
+            "hop_id": "20250426_wehe-vnsmf_62.115.139.180",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "62.115.143.25",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "62.115.0.0/16",
+            "hop_addr": "62.115.143.25",
+            "hop_id": "20250426_wehe-vnsmf_62.115.143.25",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "85.112.122.112",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-1900",
+            "hop_ASName": null,
+            "hop_CIDR": "85.112.122.112",
+            "hop_addr": "85.112.122.112",
+            "hop_id": "20250426_wehe-vnsmf_85.112.122.112",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "176.59.62.121",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12958",
+            "hop_ASName": "T2 Mobile LLC",
+            "hop_CIDR": "176.59.32.0/19",
+            "hop_addr": "176.59.62.121",
+            "hop_id": "20250426_wehe-vnsmf_176.59.62.121",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "62.115.0.0/16",
+            "hop_addr": "62.115.225.129",
+            "hop_id": "20250426_wehe-7nppq_62.115.225.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "62.115.139.180",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "62.115.0.0/16",
+            "hop_addr": "62.115.139.180",
+            "hop_id": "20250426_wehe-7nppq_62.115.139.180",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "62.115.143.25",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "62.115.0.0/16",
+            "hop_addr": "62.115.143.25",
+            "hop_id": "20250426_wehe-7nppq_62.115.143.25",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "85.112.122.112",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "-1900",
+            "hop_ASName": null,
+            "hop_CIDR": "85.112.122.112",
+            "hop_addr": "85.112.122.112",
+            "hop_id": "20250426_wehe-7nppq_85.112.122.112",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "176.59.62.123",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12958",
+            "hop_ASName": "T2 Mobile LLC",
+            "hop_CIDR": "176.59.32.0/19",
+            "hop_addr": "176.59.62.123",
+            "hop_id": "20250426_wehe-7nppq_176.59.62.123",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

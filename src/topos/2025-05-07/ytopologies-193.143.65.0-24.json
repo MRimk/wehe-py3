@@ -1,0 +1,120 @@
+{
+  "ASN": "205638",
+  "ASName": "Tinkoff Bank JSC",
+  "subnet": "193.143.65.0/24",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12389",
+          "hop_ASName": "PJSC Rostelecom",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.192/26",
+          "IP": "195.89.146.219",
+          "mlab_site": "arn02"
+        },
+        "s2": {
+          "ASN": "1299",
+          "ASName": "Telia Company AB",
+          "CIDR": "62.115.225.128/26",
+          "IP": "62.115.225.142",
+          "mlab_site": "arn04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.193",
+            "hop_id": "20250505_wehe-26v5r_195.89.146.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "188.254.2.2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12389",
+            "hop_ASName": "PJSC Rostelecom",
+            "hop_CIDR": "188.254.0.0/17",
+            "hop_addr": "188.254.2.2",
+            "hop_id": "20250505_wehe-26v5r_188.254.2.2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "85.175.225.78",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12389",
+            "hop_ASName": "PJSC Rostelecom",
+            "hop_CIDR": "85.175.224.0/23",
+            "hop_addr": "85.175.225.78",
+            "hop_id": "20250505_wehe-26v5r_85.175.225.78",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "10.142.147.7",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "62.115.0.0/16",
+            "hop_addr": "62.115.225.129",
+            "hop_id": "20250505_wehe-mq7nh_62.115.225.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.155.129.47",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "213.155.128.0/19",
+            "hop_addr": "213.155.129.47",
+            "hop_id": "20250505_wehe-mq7nh_213.155.129.47",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "188.254.2.0",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12389",
+            "hop_ASName": "PJSC Rostelecom",
+            "hop_CIDR": "188.254.0.0/17",
+            "hop_addr": "188.254.2.0",
+            "hop_id": "20250505_wehe-mq7nh_188.254.2.0",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "85.175.225.78",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12389",
+            "hop_ASName": "PJSC Rostelecom",
+            "hop_CIDR": "85.175.224.0/23",
+            "hop_addr": "85.175.225.78",
+            "hop_id": "20250505_wehe-mq7nh_85.175.225.78",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

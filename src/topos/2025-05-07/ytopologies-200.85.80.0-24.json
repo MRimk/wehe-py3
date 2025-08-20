@@ -1,0 +1,344 @@
+{
+  "ASN": "28006",
+  "ASName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+  "subnet": "200.85.80.0/24",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "26613",
+          "hop_ASName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "6762",
+          "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250505_wehe-dwb7b_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.155",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.155",
+            "hop_id": "20250505_wehe-dwb7b_89.221.41.155",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.239",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.239",
+            "hop_id": "20250505_wehe-dwb7b_89.221.41.239",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.152.253.154",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "26613",
+            "hop_ASName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+            "hop_CIDR": "190.152.253.0/24",
+            "hop_addr": "190.152.253.154",
+            "hop_id": "20250505_wehe-dwb7b_190.152.253.154",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.85.80.0",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250505_wehe-zf7cl_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250505_wehe-zf7cl_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.118.229,213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250505_wehe-zf7cl_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.179",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.179",
+            "hop_id": "20250505_wehe-zf7cl_94.142.107.179",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.221",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.221",
+            "hop_id": "20250505_wehe-zf7cl_89.221.41.221",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.239",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.239",
+            "hop_id": "20250505_wehe-zf7cl_89.221.41.239",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.152.253.154",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "26613",
+            "hop_ASName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+            "hop_CIDR": "190.152.253.0/24",
+            "hop_addr": "190.152.253.154",
+            "hop_id": "20250505_wehe-zf7cl_190.152.253.154",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.85.80.0",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "26613",
+          "hop_ASName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "6762",
+          "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "offset1": "2",
+          "offset2": "2"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250505_wehe-dwb7b_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.155",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.155",
+            "hop_id": "20250505_wehe-dwb7b_89.221.41.155",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.239",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.239",
+            "hop_id": "20250505_wehe-dwb7b_89.221.41.239",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.152.253.154",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "26613",
+            "hop_ASName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+            "hop_CIDR": "190.152.253.0/24",
+            "hop_addr": "190.152.253.154",
+            "hop_id": "20250505_wehe-dwb7b_190.152.253.154",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.85.80.0",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250505_wehe-vh6wv_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250505_wehe-vh6wv_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.118.229",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.118.229",
+            "hop_id": "20250505_wehe-vh6wv_94.142.118.229",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250505_wehe-vh6wv_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.179",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.179",
+            "hop_id": "20250505_wehe-vh6wv_94.142.107.179",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.155",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.155",
+            "hop_id": "20250505_wehe-vh6wv_89.221.41.155",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.239",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.239",
+            "hop_id": "20250505_wehe-vh6wv_89.221.41.239",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.152.253.154",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "26613",
+            "hop_ASName": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+            "hop_CIDR": "190.152.253.0/24",
+            "hop_addr": "190.152.253.154",
+            "hop_id": "20250505_wehe-vh6wv_190.152.253.154",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.85.80.0",
+            "offset": "7"
+          }
+        ]
+      }
+    }
+  ]
+}

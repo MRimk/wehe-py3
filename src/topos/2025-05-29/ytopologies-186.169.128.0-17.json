@@ -1,0 +1,1170 @@
+{
+  "ASN": "3816",
+  "ASName": "COLOMBIA TELECOMUNICACIONES S.A. ESP",
+  "subnet": "186.169.128.0/17",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250523_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.1",
+            "hop_id": "20250523_wehe-4qslj_89.221.41.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250523_wehe-4qslj_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.207",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.207",
+            "hop_id": "20250523_wehe-4qslj_213.140.43.207",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.38",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.38",
+            "hop_id": "20250523_wehe-4qslj_94.142.97.38",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250523_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250523_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250523_wehe-2lxdt_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250523_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.1",
+            "hop_id": "20250523_wehe-4qslj_89.221.41.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250523_wehe-4qslj_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.207",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.207",
+            "hop_id": "20250523_wehe-4qslj_213.140.43.207",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.38",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.38",
+            "hop_id": "20250523_wehe-4qslj_94.142.97.38",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250523_wehe-4qslj_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250527_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250527_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250523_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.1",
+            "hop_id": "20250523_wehe-4qslj_89.221.41.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250523_wehe-4qslj_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.207",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.207",
+            "hop_id": "20250523_wehe-4qslj_213.140.43.207",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.38",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.38",
+            "hop_id": "20250523_wehe-4qslj_94.142.97.38",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250527_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250527_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250523_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.1",
+            "hop_id": "20250523_wehe-4qslj_89.221.41.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250523_wehe-4qslj_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.207",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.207",
+            "hop_id": "20250523_wehe-4qslj_213.140.43.207",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.38",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.38",
+            "hop_id": "20250523_wehe-4qslj_94.142.97.38",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250523_wehe-4qslj_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250523_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250523_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250523_wehe-2lxdt_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250527_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.115",
+            "hop_id": "20250527_wehe-4qslj_89.221.41.115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250527_wehe-4qslj_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.207,94.142.97.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.38",
+            "hop_id": "20250527_wehe-4qslj_94.142.97.38",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250523_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250523_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250523_wehe-2lxdt_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250527_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.115",
+            "hop_id": "20250527_wehe-4qslj_89.221.41.115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250527_wehe-4qslj_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.207,94.142.97.38",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.38",
+            "hop_id": "20250527_wehe-4qslj_94.142.97.38",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250527_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250527_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250527_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.115",
+            "hop_id": "20250527_wehe-jqksk_89.221.41.115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250527_wehe-jqksk_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.118.228",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.118.228",
+            "hop_id": "20250527_wehe-jqksk_94.142.118.228",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250527_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250527_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250527_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.115",
+            "hop_id": "20250527_wehe-jqksk_89.221.41.115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250527_wehe-jqksk_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.118.228",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.118.228",
+            "hop_id": "20250527_wehe-jqksk_94.142.118.228",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250523_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250523_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250523_wehe-2lxdt_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250527_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.115",
+            "hop_id": "20250527_wehe-jqksk_89.221.41.115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250527_wehe-jqksk_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.118.228",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.118.228",
+            "hop_id": "20250527_wehe-jqksk_94.142.118.228",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250527_wehe-jqksk_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250523_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250523_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250523_wehe-2lxdt_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "2"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "12956",
+          "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250527_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "89.221.41.115",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "89.221.32.0/20",
+            "hop_addr": "89.221.41.115",
+            "hop_id": "20250527_wehe-jqksk_89.221.41.115",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.107.178",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.107.178",
+            "hop_id": "20250527_wehe-jqksk_94.142.107.178",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.118.228",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.118.228",
+            "hop_id": "20250527_wehe-jqksk_94.142.118.228",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "84.16.6.175",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.6.175",
+            "hop_id": "20250527_wehe-jqksk_84.16.6.175",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250527_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250527_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "1"
+          }
+        ]
+      }
+    }
+  ]
+}

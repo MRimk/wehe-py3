@@ -1,0 +1,400 @@
+{
+  "ASN": "51207",
+  "ASName": "Free Mobile SAS",
+  "subnet": "37.160.0.0/12",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "-2271",
+          "hop_ASName": null,
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "-2015",
+          "hop_ASName": null,
+          "offset1": "2",
+          "offset2": "2"
+        },
+        {
+          "hop_ASN": "174",
+          "hop_ASName": "Cogent Communications",
+          "offset1": "3",
+          "offset2": "3"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.147.192/26",
+          "IP": "195.89.147.232",
+          "mlab_site": "par05"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.147.193",
+            "hop_id": "20250504_wehe-kjm66_195.89.147.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.61.17",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.61.17",
+            "hop_id": "20250504_wehe-kjm66_154.54.61.17",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "130.117.48.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "130.117.0.0/16",
+            "hop_addr": "130.117.48.213",
+            "hop_id": "20250504_wehe-kjm66_130.117.48.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "149.11.206.82",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "149.11.0.0/16",
+            "hop_addr": "149.11.206.82",
+            "hop_id": "20250504_wehe-kjm66_149.11.206.82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "194.149.173.45",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "-2015",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.173.45",
+            "hop_addr": "194.149.173.45",
+            "hop_id": "20250504_wehe-kjm66_194.149.173.45",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "194.149.185.73",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-2271",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.185.73",
+            "hop_addr": "194.149.185.73",
+            "hop_id": "20250504_wehe-kjm66_194.149.185.73",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250504_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.111.186",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.111.186",
+            "hop_id": "20250504_wehe-qtd67_141.136.111.186",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.56.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.56.174",
+            "hop_id": "20250504_wehe-qtd67_154.54.56.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.74.189",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.74.189",
+            "hop_id": "20250504_wehe-qtd67_154.54.74.189",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "149.11.206.82",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "149.11.0.0/16",
+            "hop_addr": "149.11.206.82",
+            "hop_id": "20250504_wehe-qtd67_149.11.206.82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "194.149.173.45",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-2015",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.173.45",
+            "hop_addr": "194.149.173.45",
+            "hop_id": "20250504_wehe-qtd67_194.149.173.45",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "194.149.185.73",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "-2271",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.185.73",
+            "hop_addr": "194.149.185.73",
+            "hop_id": "20250504_wehe-qtd67_194.149.185.73",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "-2271",
+          "hop_ASName": null,
+          "offset1": "1",
+          "offset2": "1"
+        },
+        {
+          "hop_ASN": "-2015",
+          "hop_ASName": null,
+          "offset1": "2",
+          "offset2": "2"
+        },
+        {
+          "hop_ASN": "174",
+          "hop_ASName": "Cogent Communications",
+          "offset1": "3",
+          "offset2": "3"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "195.89.146.128/26",
+          "IP": "195.89.146.168",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "77.67.119.0/26",
+          "IP": "77.67.119.40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.89.0.0/16",
+            "hop_addr": "195.89.146.129",
+            "hop_id": "20250504_wehe-bg5ft_195.89.146.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.2.16.254",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "195.2.0.0/19",
+            "hop_addr": "195.2.16.254",
+            "hop_id": "20250504_wehe-bg5ft_195.2.16.254",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "130.117.2.142",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "130.117.0.0/16",
+            "hop_addr": "130.117.2.142",
+            "hop_id": "20250504_wehe-bg5ft_130.117.2.142",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "130.117.48.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "130.117.0.0/16",
+            "hop_addr": "130.117.48.213",
+            "hop_id": "20250504_wehe-bg5ft_130.117.48.213",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "149.11.206.82",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "149.11.0.0/16",
+            "hop_addr": "149.11.206.82",
+            "hop_id": "20250504_wehe-bg5ft_149.11.206.82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "194.149.173.45",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-2015",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.173.45",
+            "hop_addr": "194.149.173.45",
+            "hop_id": "20250504_wehe-bg5ft_194.149.173.45",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "194.149.185.73",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "-2271",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.185.73",
+            "hop_addr": "194.149.185.73",
+            "hop_id": "20250504_wehe-bg5ft_194.149.185.73",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "77.67.0.0/17",
+            "hop_addr": "77.67.119.1",
+            "hop_id": "20250504_wehe-qtd67_77.67.119.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "141.136.111.186",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "141.136.96.0/20",
+            "hop_addr": "141.136.111.186",
+            "hop_id": "20250504_wehe-qtd67_141.136.111.186",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.56.174",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.56.174",
+            "hop_id": "20250504_wehe-qtd67_154.54.56.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.74.189",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.74.189",
+            "hop_id": "20250504_wehe-qtd67_154.54.74.189",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "149.11.206.82",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "149.11.0.0/16",
+            "hop_addr": "149.11.206.82",
+            "hop_id": "20250504_wehe-qtd67_149.11.206.82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "194.149.173.45",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "-2015",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.173.45",
+            "hop_addr": "194.149.173.45",
+            "hop_id": "20250504_wehe-qtd67_194.149.173.45",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "194.149.185.73",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "-2271",
+            "hop_ASName": null,
+            "hop_CIDR": "194.149.185.73",
+            "hop_addr": "194.149.185.73",
+            "hop_id": "20250504_wehe-qtd67_194.149.185.73",
+            "is_next_missing": "true",
+            "missing_network": "true",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    }
+  ]
+}

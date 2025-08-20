@@ -1,0 +1,1 @@
+python3 parse_ytopology_jsons.py --download --clean --parse

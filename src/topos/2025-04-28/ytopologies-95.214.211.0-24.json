@@ -1,0 +1,1734 @@
+{
+  "ASN": "41202",
+  "ASName": "UNITEL LLC",
+  "subnet": "95.214.211.0/24",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "4755",
+          "ASName": "TATA Communications formerly VSNL is Leading ISP",
+          "CIDR": "14.143.58.128/26",
+          "IP": "14.143.58.155",
+          "mlab_site": "bom02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "14.143.58.0/23",
+            "hop_addr": "14.143.58.129",
+            "hop_id": "20250427_wehe-l25f8_14.143.58.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "172.23.78.237",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "180.87.0.0/17",
+            "hop_addr": "180.87.38.5",
+            "hop_id": "20250427_wehe-l25f8_180.87.38.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "180.87.38.29",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "180.87.0.0/17",
+            "hop_addr": "180.87.38.29",
+            "hop_id": "20250427_wehe-l25f8_180.87.38.29",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "216.6.13.193,80.231.165.25,195.219.187.7",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250427_wehe-l25f8_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250427_wehe-l25f8_195.219.87.56",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.101",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.101",
+            "hop_id": "20250427_wehe-l25f8_195.219.87.101",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.50",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.50",
+            "hop_id": "20250427_wehe-l25f8_195.69.189.50",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.38",
+            "hop_id": "20250427_wehe-l25f8_195.69.189.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.165",
+            "offset": "8"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.165",
+            "hop_id": "20250427_wehe-l25f8_195.69.189.165",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "9"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "4755",
+          "ASName": "TATA Communications formerly VSNL is Leading ISP",
+          "CIDR": "14.143.58.128/26",
+          "IP": "14.143.58.155",
+          "mlab_site": "bom02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "14.143.58.0/23",
+            "hop_addr": "14.143.58.129",
+            "hop_id": "20250427_wehe-l25f8_14.143.58.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "172.23.78.237",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "180.87.0.0/17",
+            "hop_addr": "180.87.38.5",
+            "hop_id": "20250427_wehe-l25f8_180.87.38.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "180.87.38.29,195.219.187.7",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250427_wehe-l25f8_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250427_wehe-l25f8_195.219.87.56",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.101",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.101",
+            "hop_id": "20250427_wehe-l25f8_195.219.87.101",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.50",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.50",
+            "hop_id": "20250427_wehe-l25f8_195.69.189.50",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.38",
+            "hop_id": "20250427_wehe-l25f8_195.69.189.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.165",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.165",
+            "hop_id": "20250427_wehe-l25f8_195.69.189.165",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "8"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "4755",
+          "ASName": "TATA Communications formerly VSNL is Leading ISP",
+          "CIDR": "14.143.58.128/26",
+          "IP": "14.143.58.155",
+          "mlab_site": "bom02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "14.143.58.0/23",
+            "hop_addr": "14.143.58.129",
+            "hop_id": "20250425_wehe-l25f8_14.143.58.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "172.23.78.237",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250425_wehe-l25f8_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250425_wehe-l25f8_195.219.87.56",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.101",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.101",
+            "hop_id": "20250425_wehe-l25f8_195.219.87.101",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.50",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.50",
+            "hop_id": "20250425_wehe-l25f8_195.69.189.50",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.38",
+            "hop_id": "20250425_wehe-l25f8_195.69.189.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.165",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.165",
+            "hop_id": "20250425_wehe-l25f8_195.69.189.165",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "4755",
+          "ASName": "TATA Communications formerly VSNL is Leading ISP",
+          "CIDR": "14.143.58.128/26",
+          "IP": "14.143.58.168",
+          "mlab_site": "bom02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "4755",
+            "hop_ASName": "TATA Communications formerly VSNL is Leading ISP",
+            "hop_CIDR": "14.143.58.0/23",
+            "hop_addr": "14.143.58.129",
+            "hop_id": "20250426_wehe-mzvwf_14.143.58.129",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "172.23.78.237",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "180.87.0.0/17",
+            "hop_addr": "180.87.38.5",
+            "hop_id": "20250426_wehe-mzvwf_180.87.38.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.231.165.25,195.219.187.7",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.187.7",
+            "hop_id": "20250426_wehe-mzvwf_195.219.187.7",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.56",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.56",
+            "hop_id": "20250426_wehe-mzvwf_195.219.87.56",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.87.101",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.87.101",
+            "hop_id": "20250426_wehe-mzvwf_195.219.87.101",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.50",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.50",
+            "hop_id": "20250426_wehe-mzvwf_195.69.189.50",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.38",
+            "hop_id": "20250426_wehe-mzvwf_195.69.189.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.247",
+            "offset": "7"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.247",
+            "hop_id": "20250426_wehe-mzvwf_195.69.189.247",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "8"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "61.246.223.0/26",
+          "IP": "61.246.223.27",
+          "mlab_site": "del02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "61.246.223.0/24",
+            "hop_addr": "61.246.223.1",
+            "hop_id": "20250427_wehe-f2qxg_61.246.223.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "182.79.206.46",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "182.79.206.0/24",
+            "hop_addr": "182.79.206.46",
+            "hop_id": "20250427_wehe-f2qxg_182.79.206.46",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.66.226.5",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "34984",
+            "hop_ASName": "TELLCOM ILETISIM HIZMETLERI A.S.",
+            "hop_CIDR": "195.66.224.0/21",
+            "hop_addr": "195.66.226.5",
+            "hop_id": "20250427_wehe-f2qxg_195.66.226.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.120.22.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.120.0.0/17",
+            "hop_addr": "223.120.22.81",
+            "hop_id": "20250427_wehe-f2qxg_223.120.22.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.121.2.94",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.121.0.0/17",
+            "hop_addr": "223.121.2.94",
+            "hop_id": "20250427_wehe-f2qxg_223.121.2.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.46",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.46",
+            "hop_id": "20250427_wehe-f2qxg_195.69.189.46",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.32",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.32",
+            "hop_id": "20250427_wehe-f2qxg_195.69.189.32",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.167",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.167",
+            "hop_id": "20250427_wehe-f2qxg_195.69.189.167",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "61.246.223.0/26",
+          "IP": "61.246.223.27",
+          "mlab_site": "del02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "61.246.223.0/24",
+            "hop_addr": "61.246.223.1",
+            "hop_id": "20250424_wehe-f2qxg_61.246.223.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "116.119.68.55",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "116.119.64.0/18",
+            "hop_addr": "116.119.68.55",
+            "hop_id": "20250424_wehe-f2qxg_116.119.68.55",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.66.226.5",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "34984",
+            "hop_ASName": "TELLCOM ILETISIM HIZMETLERI A.S.",
+            "hop_CIDR": "195.66.224.0/21",
+            "hop_addr": "195.66.226.5",
+            "hop_id": "20250424_wehe-f2qxg_195.66.226.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.120.22.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.120.0.0/17",
+            "hop_addr": "223.120.22.81",
+            "hop_id": "20250424_wehe-f2qxg_223.120.22.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.121.2.94",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.121.0.0/22",
+            "hop_addr": "223.121.2.94",
+            "hop_id": "20250424_wehe-f2qxg_223.121.2.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.38",
+            "hop_id": "20250424_wehe-f2qxg_195.69.189.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.165",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.165",
+            "hop_id": "20250424_wehe-f2qxg_195.69.189.165",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "61.246.223.0/26",
+          "IP": "61.246.223.27",
+          "mlab_site": "del02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "61.246.223.0/24",
+            "hop_addr": "61.246.223.1",
+            "hop_id": "20250426_wehe-f2qxg_61.246.223.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "182.79.237.206",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "182.79.237.0/24",
+            "hop_addr": "182.79.237.206",
+            "hop_id": "20250426_wehe-f2qxg_182.79.237.206",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.66.226.5",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "34984",
+            "hop_ASName": "TELLCOM ILETISIM HIZMETLERI A.S.",
+            "hop_CIDR": "195.66.224.0/21",
+            "hop_addr": "195.66.226.5",
+            "hop_id": "20250426_wehe-f2qxg_195.66.226.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.120.22.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.120.0.0/17",
+            "hop_addr": "223.120.22.81",
+            "hop_id": "20250426_wehe-f2qxg_223.120.22.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.121.2.94",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.121.0.0/22",
+            "hop_addr": "223.121.2.94",
+            "hop_id": "20250426_wehe-f2qxg_223.121.2.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.50",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.50",
+            "hop_id": "20250426_wehe-f2qxg_195.69.189.50",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.38",
+            "hop_id": "20250426_wehe-f2qxg_195.69.189.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.247",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.247",
+            "hop_id": "20250426_wehe-f2qxg_195.69.189.247",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "61.246.223.0/26",
+          "IP": "61.246.223.27",
+          "mlab_site": "del02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "61.246.223.0/24",
+            "hop_addr": "61.246.223.1",
+            "hop_id": "20250424_wehe-f2qxg_61.246.223.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "116.119.68.55",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "116.119.64.0/18",
+            "hop_addr": "116.119.68.55",
+            "hop_id": "20250424_wehe-f2qxg_116.119.68.55",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.66.226.5",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "34984",
+            "hop_ASName": "TELLCOM ILETISIM HIZMETLERI A.S.",
+            "hop_CIDR": "195.66.224.0/21",
+            "hop_addr": "195.66.226.5",
+            "hop_id": "20250424_wehe-f2qxg_195.66.226.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.120.22.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.120.0.0/17",
+            "hop_addr": "223.120.22.81",
+            "hop_id": "20250424_wehe-f2qxg_223.120.22.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.121.2.94,195.69.189.50",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.50",
+            "hop_id": "20250424_wehe-f2qxg_195.69.189.50",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38,195.69.189.165",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.165",
+            "hop_id": "20250424_wehe-f2qxg_195.69.189.165",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "61.246.223.0/26",
+          "IP": "61.246.223.27",
+          "mlab_site": "del02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "61.246.223.0/24",
+            "hop_addr": "61.246.223.1",
+            "hop_id": "20250424_wehe-f2qxg_61.246.223.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "116.119.68.55",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "116.119.64.0/18",
+            "hop_addr": "116.119.68.55",
+            "hop_id": "20250424_wehe-f2qxg_116.119.68.55",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.120.22.81",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.120.0.0/17",
+            "hop_addr": "223.120.22.81",
+            "hop_id": "20250424_wehe-f2qxg_223.120.22.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.121.2.94",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.121.0.0/22",
+            "hop_addr": "223.121.2.94",
+            "hop_id": "20250424_wehe-f2qxg_223.121.2.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.50",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.50",
+            "hop_id": "20250424_wehe-f2qxg_195.69.189.50",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.38",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.38",
+            "hop_id": "20250424_wehe-f2qxg_195.69.189.38",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.165",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.165",
+            "hop_id": "20250424_wehe-f2qxg_195.69.189.165",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "61.246.223.0/26",
+          "IP": "61.246.223.27",
+          "mlab_site": "del02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "61.246.223.0/24",
+            "hop_addr": "61.246.223.1",
+            "hop_id": "20250425_wehe-f2qxg_61.246.223.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "182.79.237.206",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "182.79.237.0/24",
+            "hop_addr": "182.79.237.206",
+            "hop_id": "20250425_wehe-f2qxg_182.79.237.206",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.66.226.5",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "34984",
+            "hop_ASName": "TELLCOM ILETISIM HIZMETLERI A.S.",
+            "hop_CIDR": "195.66.224.0/21",
+            "hop_addr": "195.66.226.5",
+            "hop_id": "20250425_wehe-f2qxg_195.66.226.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.120.22.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.120.0.0/17",
+            "hop_addr": "223.120.22.81",
+            "hop_id": "20250425_wehe-f2qxg_223.120.22.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.121.2.94",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.121.0.0/22",
+            "hop_addr": "223.121.2.94",
+            "hop_id": "20250425_wehe-f2qxg_223.121.2.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.46",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.46",
+            "hop_id": "20250425_wehe-f2qxg_195.69.189.46",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.32",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.32",
+            "hop_id": "20250425_wehe-f2qxg_195.69.189.32",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.167",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.167",
+            "hop_id": "20250425_wehe-f2qxg_195.69.189.167",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "9498",
+          "ASName": "BHARTI Airtel Ltd.",
+          "CIDR": "61.246.223.0/26",
+          "IP": "61.246.223.40",
+          "mlab_site": "del02"
+        },
+        "s2": {
+          "ASN": "55836",
+          "ASName": "Reliance Jio Infocomm Limited",
+          "CIDR": "49.45.151.64/26",
+          "IP": "49.45.151.104",
+          "mlab_site": "del04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "9498",
+            "hop_ASName": "BHARTI Airtel Ltd.",
+            "hop_CIDR": "61.246.223.0/24",
+            "hop_addr": "61.246.223.1",
+            "hop_id": "20250426_wehe-h87pp_61.246.223.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "116.119.156.64",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "-1817",
+            "hop_ASName": null,
+            "hop_CIDR": "116.119.156.64",
+            "hop_addr": "116.119.156.64",
+            "hop_id": "20250426_wehe-h87pp_116.119.156.64",
+            "is_next_missing": "false",
+            "missing_network": "true",
+            "next_addrs": "195.66.226.5",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "34984",
+            "hop_ASName": "TELLCOM ILETISIM HIZMETLERI A.S.",
+            "hop_CIDR": "195.66.224.0/21",
+            "hop_addr": "195.66.226.5",
+            "hop_id": "20250426_wehe-h87pp_195.66.226.5",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.120.22.81",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.120.0.0/17",
+            "hop_addr": "223.120.22.81",
+            "hop_id": "20250426_wehe-h87pp_223.120.22.81",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "223.121.2.94",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "58453",
+            "hop_ASName": "Level 30, Tower 1",
+            "hop_CIDR": "223.121.0.0/22",
+            "hop_addr": "223.121.2.94",
+            "hop_id": "20250426_wehe-h87pp_223.121.2.94",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.46",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.46",
+            "hop_id": "20250426_wehe-h87pp_195.69.189.46",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.32",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.32",
+            "hop_id": "20250426_wehe-h87pp_195.69.189.32",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.69.189.163",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "28910",
+            "hop_ASName": "Uzbektelekom Joint Stock Company",
+            "hop_CIDR": "195.69.189.0/24",
+            "hop_addr": "195.69.189.163",
+            "hop_id": "20250426_wehe-h87pp_195.69.189.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "55836",
+            "hop_ASName": "Reliance Jio Infocomm Limited",
+            "hop_CIDR": "49.45.151.0/24",
+            "hop_addr": "49.45.151.65",
+            "hop_id": "20250425_wehe-vw87j_49.45.151.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.174",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.174",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.174",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "103.198.140.213",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "64049",
+            "hop_ASName": "Reliance Jio Infocomm Pte Ltd Singapore",
+            "hop_CIDR": "103.198.140.0/24",
+            "hop_addr": "103.198.140.213",
+            "hop_id": "20250425_wehe-vw87j_103.198.140.213",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "3"
+          }
+        ]
+      }
+    }
+  ]
+}

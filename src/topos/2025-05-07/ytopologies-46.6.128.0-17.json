@@ -1,0 +1,157 @@
+{
+  "ASN": "15704",
+  "ASName": "XTRA TELECOM S.A.",
+  "subnet": "46.6.128.0/17",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "213.242.96.192/26",
+          "IP": "213.242.96.232",
+          "mlab_site": "lis01"
+        },
+        "s2": {
+          "ASN": "6453",
+          "ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+          "CIDR": "162.213.98.0/26",
+          "IP": "162.213.98.14",
+          "mlab_site": "lis03"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "213.242.64.0/18",
+            "hop_addr": "213.242.96.193",
+            "hop_id": "20250506_wehe-4fxxm_213.242.96.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "171.75.8.87",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "171.75.0.0/16",
+            "hop_addr": "171.75.8.87",
+            "hop_id": "20250506_wehe-4fxxm_171.75.8.87",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "130.117.14.45",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "130.117.0.0/16",
+            "hop_addr": "130.117.14.45",
+            "hop_id": "20250506_wehe-4fxxm_130.117.14.45",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.57.230",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.57.230",
+            "hop_id": "20250506_wehe-4fxxm_154.54.57.230",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "154.54.58.138",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "154.48.0.0/12",
+            "hop_addr": "154.54.58.138",
+            "hop_id": "20250506_wehe-4fxxm_154.54.58.138",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "149.11.19.202",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "149.11.0.0/16",
+            "hop_addr": "149.11.19.202",
+            "hop_id": "20250506_wehe-4fxxm_149.11.19.202",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "162.213.98.0/24",
+            "hop_addr": "162.213.98.1",
+            "hop_id": "20250506_wehe-9cfj9_162.213.98.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.231.159.41",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "80.231.0.0/16",
+            "hop_addr": "80.231.159.41",
+            "hop_id": "20250506_wehe-9cfj9_80.231.159.41",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "80.231.0.34",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "80.231.0.0/16",
+            "hop_addr": "80.231.0.34",
+            "hop_id": "20250506_wehe-9cfj9_80.231.0.34",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.124.49",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.124.49",
+            "hop_id": "20250506_wehe-9cfj9_195.219.124.49",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "195.219.124.69",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "6453",
+            "hop_ASName": "TATA COMMUNICATIONS (AMERICA) INC",
+            "hop_CIDR": "195.219.0.0/16",
+            "hop_addr": "195.219.124.69",
+            "hop_id": "20250506_wehe-9cfj9_195.219.124.69",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "10.0.20.66",
+            "offset": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

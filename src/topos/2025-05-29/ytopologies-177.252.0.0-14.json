@@ -1,0 +1,2915 @@
+{
+  "ASN": "27831",
+  "ASName": "Colombia Móvil",
+  "subnet": "177.252.0.0/14",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-4qslj_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-4qslj_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-4qslj_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-2lxdt_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-2lxdt_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-4qslj_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-4qslj_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-4qslj_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-9b72v_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-9b72v_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250526_wehe-9b72v_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-9b72v_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-9b72v_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-4qslj_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-4qslj_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-4qslj_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-zbwzd_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.55",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.55",
+            "hop_id": "20250526_wehe-zbwzd_84.16.15.55",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-zbwzd_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-zbwzd_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-zbwzd_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.104",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-4qslj_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-4qslj_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-4qslj_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-4qslj_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-4qslj_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250524_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250524_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250524_wehe-2lxdt_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.206",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.206",
+            "hop_id": "20250524_wehe-2lxdt_213.140.43.206",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-2lxdt_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-r6grg_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-r6grg_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-r6grg_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-r6grg_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-2lxdt_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-2lxdt_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-r6grg_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-r6grg_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-r6grg_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-r6grg_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-zbwzd_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.55",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.55",
+            "hop_id": "20250526_wehe-zbwzd_84.16.15.55",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-zbwzd_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-zbwzd_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-zbwzd_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-r6grg_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-r6grg_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-r6grg_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-r6grg_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250524_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250524_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250524_wehe-2lxdt_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.206",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.206",
+            "hop_id": "20250524_wehe-2lxdt_213.140.43.206",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-2lxdt_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.91",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250524_wehe-r6grg_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250524_wehe-r6grg_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250524_wehe-r6grg_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-r6grg_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-r6grg_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-9b72v_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-9b72v_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250526_wehe-9b72v_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-9b72v_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-9b72v_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250526_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-jqksk_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-jqksk_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-jqksk_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250524_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250524_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250524_wehe-2lxdt_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.206",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.206",
+            "hop_id": "20250524_wehe-2lxdt_213.140.43.206",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-2lxdt_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250526_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-jqksk_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-jqksk_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-jqksk_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-2lxdt_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-2lxdt_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250526_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-jqksk_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-jqksk_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-jqksk_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-9b72v_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-9b72v_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250526_wehe-9b72v_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-9b72v_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-9b72v_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "162.213.97.64/26",
+          "IP": "162.213.97.78",
+          "mlab_site": "bog05"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "162.213.96.0/23",
+            "hop_addr": "162.213.97.65",
+            "hop_id": "20250526_wehe-jqksk_162.213.97.65",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.22",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.22",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.22",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-jqksk_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-jqksk_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-jqksk_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-jqksk_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-zbwzd_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.55",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.55",
+            "hop_id": "20250526_wehe-zbwzd_84.16.15.55",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-zbwzd_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-zbwzd_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-zbwzd_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "200.123.196.0/26",
+          "IP": "200.123.196.27",
+          "mlab_site": "lim02"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "200.123.192.0/20",
+            "hop_addr": "200.123.196.1",
+            "hop_id": "20250526_wehe-6dvt7_200.123.196.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-6dvt7_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-6dvt7_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-6dvt7_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-2lxdt_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-2lxdt_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "200.123.196.0/26",
+          "IP": "200.123.196.27",
+          "mlab_site": "lim02"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.206",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "200.123.192.0/20",
+            "hop_addr": "200.123.196.1",
+            "hop_id": "20250526_wehe-6dvt7_200.123.196.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-6dvt7_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-6dvt7_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-6dvt7_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250524_wehe-2lxdt_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250524_wehe-2lxdt_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250524_wehe-2lxdt_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.206",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.206",
+            "hop_id": "20250524_wehe-2lxdt_213.140.43.206",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250524_wehe-2lxdt_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250524_wehe-2lxdt_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.34.163",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.34.163",
+            "hop_id": "20250524_wehe-2lxdt_200.24.34.163",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "200.123.196.0/26",
+          "IP": "200.123.196.27",
+          "mlab_site": "lim02"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.232",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "200.123.192.0/20",
+            "hop_addr": "200.123.196.1",
+            "hop_id": "20250526_wehe-6dvt7_200.123.196.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-6dvt7_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-6dvt7_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-6dvt7_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-zbwzd_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.55",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.55",
+            "hop_id": "20250526_wehe-zbwzd_84.16.15.55",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "213.140.43.234",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "213.140.32.0/19",
+            "hop_addr": "213.140.43.234",
+            "hop_id": "20250526_wehe-zbwzd_213.140.43.234",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-zbwzd_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-zbwzd_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-zbwzd_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [],
+        "common_cidrs": []
+      },
+      "common_outside_ases": [
+        {
+          "hop_ASN": "13489",
+          "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+          "offset1": "1",
+          "offset2": "1"
+        }
+      ],
+      "servers": {
+        "s1": {
+          "ASN": "6762",
+          "ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+          "CIDR": "200.123.196.0/26",
+          "IP": "200.123.196.27",
+          "mlab_site": "lim02"
+        },
+        "s2": {
+          "ASN": "12956",
+          "ASName": "Telefonica International Wholesale Services",
+          "CIDR": "190.98.179.192/26",
+          "IP": "190.98.179.219",
+          "mlab_site": "bog02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "200.123.192.0/20",
+            "hop_addr": "200.123.196.1",
+            "hop_id": "20250526_wehe-6dvt7_200.123.196.1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.54",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.54",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.54",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "79.140.83.83",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "6762",
+            "hop_ASName": "TELECOM ITALIA SPARKLE S.p.A.",
+            "hop_CIDR": "79.140.80.0/20",
+            "hop_addr": "79.140.83.83",
+            "hop_id": "20250526_wehe-6dvt7_79.140.83.83",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.98",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.98",
+            "hop_id": "20250526_wehe-6dvt7_200.24.33.98",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-6dvt7_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-6dvt7_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "190.98.160.0/19",
+            "hop_addr": "190.98.179.193",
+            "hop_id": "20250526_wehe-9b72v_190.98.179.193",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "84.16.15.31",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "84.16.0.0/19",
+            "hop_addr": "84.16.15.31",
+            "hop_id": "20250526_wehe-9b72v_84.16.15.31",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "94.142.97.39",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "12956",
+            "hop_ASName": "Telefonica International Wholesale Services II, S.L.U.",
+            "hop_CIDR": "94.142.96.0/19",
+            "hop_addr": "94.142.97.39",
+            "hop_id": "20250526_wehe-9b72v_94.142.97.39",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.232",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.232",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.232",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.33.235",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.33.235",
+            "hop_id": "20250526_wehe-9b72v_200.24.33.235",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "200.24.35.182",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "200.24.32.0/19",
+            "hop_addr": "200.24.35.182",
+            "hop_id": "20250526_wehe-9b72v_200.24.35.182",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "190.248.88.85",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "13489",
+            "hop_ASName": "EPM Telecomunicaciones S.A. E.S.P.",
+            "hop_CIDR": "190.248.0.0/14",
+            "hop_addr": "190.248.88.85",
+            "hop_id": "20250526_wehe-9b72v_190.248.88.85",
+            "is_next_missing": "true",
+            "missing_network": "false",
+            "next_addrs": "",
+            "offset": "6"
+          }
+        ]
+      }
+    }
+  ]
+}

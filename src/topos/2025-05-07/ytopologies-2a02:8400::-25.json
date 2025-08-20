@@ -1,0 +1,5287 @@
+{
+  "ASN": "15557",
+  "ASName": "SFR SA",
+  "subnet": "2a02:8400::/25",
+  "topos": [
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5003:300:e::/64",
+          "IP": "2001:5003:300:e::206",
+          "mlab_site": "par05"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:e::1",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-9bxhn_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:5000::29bd",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:5000::29bd",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5003:300:e::/64",
+          "IP": "2001:5003:300:e::206",
+          "mlab_site": "par05"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:e::1",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-9bxhn_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5003:300:e::/64",
+          "IP": "2001:5003:300:e::206",
+          "mlab_site": "par05"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:e::1",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-9bxhn_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5003:300:e::/64",
+          "IP": "2001:5003:300:e::206",
+          "mlab_site": "par05"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:e::1",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-9bxhn_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:5000::29bd",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:5000::29bd",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5003:300:e::/64",
+          "IP": "2001:5003:300:e::206",
+          "mlab_site": "par05"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:e::1",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-9bxhn_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd,2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5003:300:e::/64",
+          "IP": "2001:5003:300:e::206",
+          "mlab_site": "par05"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:e::1",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:e::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-9bxhn_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-9bxhn_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "2"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd,2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd,2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::155",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-l9dgw_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-l9dgw_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-l9dgw_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-l9dgw_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-l9dgw_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:5000::29bd",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:5000::29bd",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::155",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-l9dgw_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-l9dgw_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-l9dgw_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-l9dgw_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-l9dgw_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:5000::29bd",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:5000::29bd",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8400:0:3::6205",
+            "offset": "6"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6205"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::155",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3356",
+          "ASName": "Level 3 Parent, LLC",
+          "CIDR": "2001:4c08:2003:45::/64",
+          "IP": "2001:4c08:2003:45::219",
+          "mlab_site": "bru02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-l9dgw_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-l9dgw_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-l9dgw_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-l9dgw_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::2c5,2a02:8400:0:3::6205",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-l9dgw_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08:2003:45::1",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08:2003:45::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:4c08::a6",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:4c08::/32",
+            "hop_addr": "2001:4c08::a6",
+            "hop_id": "20250504_wehe-grvwh_2001:4c08::a6",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:1900:5:3::82",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "3356",
+            "hop_ASName": "Level 3 Parent, LLC",
+            "hop_CIDR": "2001:1900::/32",
+            "hop_addr": "2001:1900:5:3::82",
+            "hop_id": "20250504_wehe-grvwh_2001:1900:5:3::82",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::165",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::165",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::165",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::19a",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::19a",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::19a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:2000::1ea",
+            "offset": "4"
+          },
+          {
+            "hop_ASN": "2914",
+            "hop_ASName": "NTT America, Inc.",
+            "hop_CIDR": "2001:728::/32",
+            "hop_addr": "2001:728:0:2000::1ea",
+            "hop_id": "20250504_wehe-grvwh_2001:728:0:2000::1ea",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:728:0:5000::29bd,2a02:8400:0:3::6205",
+            "offset": "5"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6205",
+            "hop_id": "20250504_wehe-grvwh_2a02:8400:0:3::6205",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:5e7::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::14",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::7d6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ffxxz_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::14",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:101::491,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:be::1,fc00:0:0:101::7d6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ffxxz_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::14",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:be::1,fc00:0:0:101::7d6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ffxxz_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::14",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:be::1,fc00:0:0:101::7d6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ffxxz_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::14",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:101::491,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::7d6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ffxxz_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::14",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ffxxz_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-ffxxz_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::7d6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ffxxz_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:2e21:4eda,2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::2,fc00:0:0:101::7d6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:101::491,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::1,fc00:0:0:101::7d6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:2e21:4eda,2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::2,fc00:0:0:101::7d6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:101::491,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:3:ffff:0:2e21:4eda,2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::2,fc00:0:0:101::7d6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::1,fc00:0:0:101::7d6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6302"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6302",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6302",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:24bc::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::2,fc00:0:0:101::420,2a02:8400:0:3::6302",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6302",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6302",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:24bc::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::1,fc00:0:0:101::7d6",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "7"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6302"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::27",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6302",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6302",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:24bc::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-ktftq_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-ktftq_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c1::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c1::1",
+            "hop_id": "20250504_wehe-ktftq_2001:2034:1:c1::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::1,fc00:0:0:101::420,2a02:8400:0:3::6302",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6302",
+            "hop_id": "20250504_wehe-ktftq_2a02:8400:0:3::6302",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:24bc::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1,2001:2034:1:be::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::1,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1,2001:2034:1:be::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1,2001:2034:1:be::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::1,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:101::491,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:be::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::7d6,fc00:0:0:100::14",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6302"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6302",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6302",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:24bc::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:be::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::420",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6302",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6302",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:24bc::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1,2001:2034:1:be::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:be::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::7d6,fc00:0:0:100::14",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:101::491,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1,2001:2034:1:be::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2035:0:12cf::1,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:c6::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:c6::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:be::1",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::7d6,fc00:0:0:100::14",
+            "offset": "3"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:24bd::",
+            "offset": "6"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::6281"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5005:200::/64",
+          "IP": "2001:5005:200::142",
+          "mlab_site": "bru01"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:69::/64",
+          "IP": "2001:668:1f:69::40",
+          "mlab_site": "bru04"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5005:200::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5005:200::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:1a7::1",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:1a7::1",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:1a7::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:5b::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:5b::2",
+            "hop_id": "20250504_wehe-br6mg_2001:5000:0:5b::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2,fc00:0:0:101::491,fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-br6mg_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "5"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:69::1",
+            "hop_id": "20250504_wehe-qtd67_2001:668:1f:69::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6f6e",
+            "hop_id": "20250504_wehe-qtd67_2001:668:0:2:ffff:0:8d88:6f6e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:2034:1:c6::1,2001:2034:1:be::1",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1299",
+            "hop_ASName": "Telia Company AB",
+            "hop_CIDR": "2001:2030::/28",
+            "hop_addr": "2001:2034:1:be::1",
+            "hop_id": "20250504_wehe-qtd67_2001:2034:1:be::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:100::14",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::6281",
+            "hop_id": "20250504_wehe-qtd67_2a02:8400:0:3::6281",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8429:186::",
+            "offset": "4"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::627e"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5008:100:14::/64",
+          "IP": "2001:5008:100:14::40",
+          "mlab_site": "mil05"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:e4::/64",
+          "IP": "2001:668:1f:e4::206",
+          "mlab_site": "mrs02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5008:100:14::1",
+            "hop_id": "20250504_wehe-zqqm7_2001:5008:100:14::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:ae::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:ae::2",
+            "hop_id": "20250504_wehe-zqqm7_2001:5000:0:ae::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-zqqm7_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::216,fc00:0:0:101::1b6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::627e",
+            "hop_id": "20250504_wehe-zqqm7_2a02:8400:0:3::627e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:cd22::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:e4::1",
+            "hop_id": "20250504_wehe-v8vn7_2001:668:1f:e4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6fae",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6fae",
+            "hop_id": "20250504_wehe-v8vn7_2001:668:0:2:ffff:0:8d88:6fae",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:550:0:1000::9a36:3d4a",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:0:1000::9a36:3d4a",
+            "hop_id": "20250504_wehe-v8vn7_2001:550:0:1000::9a36:3d4a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:100::43,fc00:0:0:101::39c",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::627e",
+            "hop_id": "20250504_wehe-v8vn7_2a02:8400:0:3::627e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:842b:59c::",
+            "offset": "5"
+          }
+        ]
+      }
+    },
+    {
+      "common_innetwrok_hops": {
+        "common_addrs": [
+          "2a02:8400:0:3::627e"
+        ],
+        "common_cidrs": [
+          "2a02:8400::/25"
+        ]
+      },
+      "common_outside_ases": [],
+      "servers": {
+        "s1": {
+          "ASN": "1273",
+          "ASName": "Vodafone Group PLC",
+          "CIDR": "2001:5008:100:14::/64",
+          "IP": "2001:5008:100:14::40",
+          "mlab_site": "mil05"
+        },
+        "s2": {
+          "ASN": "3257",
+          "ASName": "GTT Communications Inc.",
+          "CIDR": "2001:668:1f:e4::/64",
+          "IP": "2001:668:1f:e4::206",
+          "mlab_site": "mrs02"
+        }
+      },
+      "traceroutes": {
+        "s1_hops": [
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5008:100:14::1",
+            "hop_id": "20250504_wehe-zqqm7_2001:5008:100:14::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5000:0:ae::2",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5000:0:ae::2",
+            "hop_id": "20250504_wehe-zqqm7_2001:5000:0:ae::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:5003:300:f::2",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "1273",
+            "hop_ASName": "Vodafone Group PLC",
+            "hop_CIDR": "2001:5000::/21",
+            "hop_addr": "2001:5003:300:f::2",
+            "hop_id": "20250504_wehe-zqqm7_2001:5003:300:f::2",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::491,fc00:0:0:101::216,fc00:0:0:101::1b6",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::627e",
+            "hop_id": "20250504_wehe-zqqm7_2a02:8400:0:3::627e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:8428:cd22::",
+            "offset": "4"
+          }
+        ],
+        "s2_hops": [
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:1f:e4::1",
+            "hop_id": "20250504_wehe-v8vn7_2001:668:1f:e4::1",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:668:0:2:ffff:0:8d88:6fae",
+            "offset": "0"
+          },
+          {
+            "hop_ASN": "3257",
+            "hop_ASName": "GTT Communications Inc.",
+            "hop_CIDR": "2001:668::/32",
+            "hop_addr": "2001:668:0:2:ffff:0:8d88:6fae",
+            "hop_id": "20250504_wehe-v8vn7_2001:668:0:2:ffff:0:8d88:6fae",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2001:550:0:1000::9a36:3d4a",
+            "offset": "1"
+          },
+          {
+            "hop_ASN": "174",
+            "hop_ASName": "Cogent Communications",
+            "hop_CIDR": "2001:550::/32",
+            "hop_addr": "2001:550:0:1000::9a36:3d4a",
+            "hop_id": "20250504_wehe-v8vn7_2001:550:0:1000::9a36:3d4a",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "fc00:0:0:101::39c",
+            "offset": "2"
+          },
+          {
+            "hop_ASN": "15557",
+            "hop_ASName": "SFR SA",
+            "hop_CIDR": "2a02:8400::/25",
+            "hop_addr": "2a02:8400:0:3::627e",
+            "hop_id": "20250504_wehe-v8vn7_2a02:8400:0:3::627e",
+            "is_next_missing": "false",
+            "missing_network": "false",
+            "next_addrs": "2a02:842b:59c::",
+            "offset": "5"
+          }
+        ]
+      }
+    }
+  ]
+}
